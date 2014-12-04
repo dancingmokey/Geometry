@@ -156,10 +156,12 @@ private:
 	 * @Field : m_pTopLeftPt : GeoPoint* : Top-Left Point of Rectangle
 	 */
 	GeoPoint* m_pTopLeftPt;
+
 	/**
 	 * @Field : m_pBottomRightPt : GeoPoint* : Bottom-Right Point of Rectangle
 	 */
 	GeoPoint* m_pBottomRightPt;
+
 	/**
 	 * @Field : m_pSize : GeoSize* : Size of Rectangle
 	 */
