@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespace_geometry" kind="namespace">
+    <compoundname>Geometry</compoundname>
+    <innerclass refid="class_geometry_1_1_geo_line" prot="public">Geometry::GeoLine</innerclass>
+    <innerclass refid="class_geometry_1_1_geo_point" prot="public">Geometry::GeoPoint</innerclass>
+    <innerclass refid="class_geometry_1_1_geo_rect" prot="public">Geometry::GeoRect</innerclass>
+    <innerclass refid="class_geometry_1_1_geo_size" prot="public">Geometry::GeoSize</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>: GeoLine.cpp  <ref refid="namespace_geometry" kindref="compound">Geometry</ref> : Implement Class <ref refid="class_geometry_1_1_geo_line" kindref="compound">Geometry::GeoLine</ref> : LiuLei  on: 2014/12/02 : V1.0.0</para><para>: <ref refid="_geo_line_8h_source" kindref="compound">GeoLine.h</ref>  <ref refid="namespace_geometry" kindref="compound">Geometry</ref> : Define Class <ref refid="class_geometry_1_1_geo_line" kindref="compound">Geometry::GeoLine</ref> : LiuLei  on: 2014/12/02 : V1.0.0</para><para>: GeoPoint.cpp  <ref refid="namespace_geometry" kindref="compound">Geometry</ref> : Implement Class <ref refid="class_geometry_1_1_geo_point" kindref="compound">Geometry::GeoPoint</ref> : LiuLei  on: 2014/12/02 : V1.0.0</para><para>: <ref refid="_geo_point_8h_source" kindref="compound">GeoPoint.h</ref>  <ref refid="namespace_geometry" kindref="compound">Geometry</ref> : Define Class <ref refid="class_geometry_1_1_geo_point" kindref="compound">Geometry::GeoPoint</ref> : LiuLei  on: 2014/12/02 : V1.0.0</para><para>: GeoRect.cpp  <ref refid="namespace_geometry" kindref="compound">Geometry</ref> : Implement Class <ref refid="class_geometry_1_1_geo_rect" kindref="compound">Geometry::GeoRect</ref> : LiuLei  on: 2014/12/02 : V1.0.0</para><para>: <ref refid="_geo_rect_8h_source" kindref="compound">GeoRect.h</ref>  <ref refid="namespace_geometry" kindref="compound">Geometry</ref> : Define Class <ref refid="class_geometry_1_1_geo_rect" kindref="compound">Geometry::GeoRect</ref> : LiuLei  on: 2014/12/02 : V1.0.0</para><para>: GeoSize.cpp  <ref refid="namespace_geometry" kindref="compound">Geometry</ref> : Implement Class <ref refid="class_geometry_1_1_geo_size" kindref="compound">Geometry::GeoSize</ref> : LiuLei  on: 2014/12/02 : V1.0.0</para><para>: <ref refid="_geo_size_8h_source" kindref="compound">GeoSize.h</ref>  <ref refid="namespace_geometry" kindref="compound">Geometry</ref> : Define Class <ref refid="class_geometry_1_1_geo_size" kindref="compound">Geometry::GeoSize</ref> : LiuLei  on: 2014/12/02 : V1.0.0 </para>    </detaileddescription>
+    <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.cpp" line="13" column="1"/>
+  </compounddef>
+</doxygen>

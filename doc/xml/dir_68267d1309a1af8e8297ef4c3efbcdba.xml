@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>C:/Users/雷/Documents/Eclipse/Projects/Geometry/src</compoundname>
+    <innerfile refid="_geo_line_8cpp">GeoLine.cpp</innerfile>
+    <innerfile refid="_geo_line_8h">GeoLine.h</innerfile>
+    <innerfile refid="_geo_point_8cpp">GeoPoint.cpp</innerfile>
+    <innerfile refid="_geo_point_8h">GeoPoint.h</innerfile>
+    <innerfile refid="_geo_rect_8cpp">GeoRect.cpp</innerfile>
+    <innerfile refid="_geo_rect_8h">GeoRect.h</innerfile>
+    <innerfile refid="_geo_size_8cpp">GeoSize.cpp</innerfile>
+    <innerfile refid="_geo_size_8h">GeoSize.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/"/>
+  </compounddef>
+</doxygen>

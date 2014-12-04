@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="_geo_line_8cpp" kind="file">
+    <compoundname>GeoLine.cpp</compoundname>
+    <includes refid="_geo_line_8h" local="yes">GeoLine.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1">
+        <label>GeoLine.h</label>
+        <link refid="_geo_line_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.cpp</label>
+        <link refid="GeoLine.cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GeoPoint.h</label>
+        <link refid="_geo_point_8h_source"/>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_geometry">Geometry</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#include<sp/>&quot;GeoLine.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="namespace_geometry" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_geometry" kindref="compound">Geometry</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><ref refid="class_geometry_1_1_geo_line_1a4ea983b5dfd6a3d2ecf1d07279e0fc3d" kindref="member">GeoLine::GeoLine</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nX1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nY1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nX2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nY2)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>constructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pStartPt<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>(nX1,<sp/>nY1);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pEndPt<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>(nX2,<sp/>nY2);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><ref refid="class_geometry_1_1_geo_line_1a4ea983b5dfd6a3d2ecf1d07279e0fc3d" kindref="member">GeoLine::GeoLine</ref>(<ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/>pStartPt,<sp/><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/>pEndPt)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>constructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pStartPt<sp/>=<sp/>pStartPt;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pEndPt<sp/>=<sp/>pEndPt;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><ref refid="class_geometry_1_1_geo_line_1a4ea983b5dfd6a3d2ecf1d07279e0fc3d" kindref="member">GeoLine::GeoLine</ref>(<ref refid="class_geometry_1_1_geo_line" kindref="compound">GeoLine</ref>&amp;<sp/>vLine)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>constructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pStartPt<sp/>=<sp/>vLine.<ref refid="class_geometry_1_1_geo_line_1a1bafce47da51c1d3b977d35c0bbed2e9" kindref="member">getStartPoint</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pEndPt<sp/>=<sp/>vLine.<ref refid="class_geometry_1_1_geo_line_1af94813b9f5ef1b280317adc954f23f43" kindref="member">getEndPoint</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><ref refid="class_geometry_1_1_geo_line_1a4ea983b5dfd6a3d2ecf1d07279e0fc3d" kindref="member">GeoLine::GeoLine</ref>()</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>constructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pStartPt<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pEndPt<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><ref refid="class_geometry_1_1_geo_line_1a382877221f6aa61eb8161ef9499e4490" kindref="member">GeoLine::~GeoLine</ref>()</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m_pStartPt<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>m_pStartPt;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pStartPt<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m_pEndPt<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>m_pEndPt;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pEndPt<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_line_1a5087cd127a61944da6611a6495eb2c9c" kindref="member">GeoLine::setStartPoint</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nX,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nY)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pStartPt-&gt;<ref refid="class_geometry_1_1_geo_point_1a35e2cab4f70bbce8d0575b08f1e70771" kindref="member">setX</ref>(nX);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pStartPt-&gt;<ref refid="class_geometry_1_1_geo_point_1a6f19ed67ab52f628a4c6639e8f30a7d7" kindref="member">setY</ref>(nY);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_line_1a5087cd127a61944da6611a6495eb2c9c" kindref="member">GeoLine::setStartPoint</ref>(<ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/>pStartPt)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pStartPt<sp/>=<sp/>pStartPt;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_line_1ab6b720dcb1b1bda68c9a480c7e90e972" kindref="member">GeoLine::setEndPoint</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nX,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nY)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pEndPt-&gt;<ref refid="class_geometry_1_1_geo_point_1a35e2cab4f70bbce8d0575b08f1e70771" kindref="member">setX</ref>(nX);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pEndPt-&gt;<ref refid="class_geometry_1_1_geo_point_1a6f19ed67ab52f628a4c6639e8f30a7d7" kindref="member">setY</ref>(nY);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_line_1ab6b720dcb1b1bda68c9a480c7e90e972" kindref="member">GeoLine::setEndPoint</ref>(<ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/>pEndPt)</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pEndPt<sp/>=<sp/>pEndPt;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/><ref refid="class_geometry_1_1_geo_line_1a1bafce47da51c1d3b977d35c0bbed2e9" kindref="member">GeoLine::getStartPoint</ref>()</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_pStartPt;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/><ref refid="class_geometry_1_1_geo_line_1af94813b9f5ef1b280317adc954f23f43" kindref="member">GeoLine::getEndPoint</ref>()</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_pEndPt;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>Geometry<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.cpp"/>
+  </compounddef>
+</doxygen>

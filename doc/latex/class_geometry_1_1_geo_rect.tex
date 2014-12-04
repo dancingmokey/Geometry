@@ -1,0 +1,282 @@
+\hypertarget{class_geometry_1_1_geo_rect}{\section{Geometry\+:\+:Geo\+Rect Class Reference}
+\label{class_geometry_1_1_geo_rect}\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+}
+
+
+{\ttfamily \#include $<$Geo\+Rect.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_geometry_1_1_geo_rect_a9820f510a951315831b4c385b4dd5f7f}{Geo\+Rect} (int n\+X1, int n\+Y1, int n\+Width, int n\+Height)
+\item 
+\hyperlink{class_geometry_1_1_geo_rect_ad6e348652bc62dc5198b7ac26aa2d177}{Geo\+Rect} (\hyperlink{class_geometry_1_1_geo_point}{Geo\+Point} $\ast$p\+Top\+Left\+Pt, \hyperlink{class_geometry_1_1_geo_point}{Geo\+Point} $\ast$p\+Bottom\+Right\+Pt)
+\item 
+\hyperlink{class_geometry_1_1_geo_rect_ad26a503538fd77191ba71ad884a4b46e}{Geo\+Rect} (\hyperlink{class_geometry_1_1_geo_point}{Geo\+Point} $\ast$p\+Top\+Left\+Pt, \hyperlink{class_geometry_1_1_geo_size}{Geo\+Size} $\ast$p\+Size)
+\item 
+\hyperlink{class_geometry_1_1_geo_rect_a3cc5173f88ded3b105e1c7ea7d551cd4}{Geo\+Rect} (\hyperlink{class_geometry_1_1_geo_rect}{Geo\+Rect} \&v\+Geo\+Rect)
+\item 
+\hyperlink{class_geometry_1_1_geo_rect_a3c0d278b693d72e695a01150492d11bb}{Geo\+Rect} ()
+\item 
+virtual \hyperlink{class_geometry_1_1_geo_rect_aef8f44244cf2ace1846e9406d22ed290}{$\sim$\+Geo\+Rect} ()
+\item 
+\hyperlink{class_geometry_1_1_geo_size}{Geo\+Size} $\ast$ \hyperlink{class_geometry_1_1_geo_rect_a31afdf267816f65dbad8633ff1298394}{get\+Size} (void)
+\item 
+void \hyperlink{class_geometry_1_1_geo_rect_a4043826e979ef681f21318c5aa5a975e}{set\+Size} (int n\+Width, int n\+Height)
+\item 
+void \hyperlink{class_geometry_1_1_geo_rect_a51b0a80ba81aaad8092488d02d3dfde5}{set\+Size} (\hyperlink{class_geometry_1_1_geo_size}{Geo\+Size} $\ast$p\+Size)
+\item 
+void \hyperlink{class_geometry_1_1_geo_rect_a27ca9d13cceb4bfee56a2294e2b7fe6d}{set\+Top\+Left\+Point} (int n\+X, int n\+Y)
+\item 
+void \hyperlink{class_geometry_1_1_geo_rect_abf2a90d888fe3faa615f2b3de072d5ad}{set\+Top\+Left\+Point} (\hyperlink{class_geometry_1_1_geo_point}{Geo\+Point} $\ast$p\+Top\+Left\+Pt)
+\item 
+void \hyperlink{class_geometry_1_1_geo_rect_a091e050fde11c418273fbf3281f5846c}{set\+Bottom\+Right\+Point} (int n\+X, int n\+Y)
+\item 
+void \hyperlink{class_geometry_1_1_geo_rect_a1e6d0857c47d94b050c9540cfdc9e55f}{set\+Bottom\+Right\+Point} (\hyperlink{class_geometry_1_1_geo_point}{Geo\+Point} $\ast$p\+Bottom\+Righ\+Pt)
+\item 
+\hyperlink{class_geometry_1_1_geo_point}{Geo\+Point} $\ast$ \hyperlink{class_geometry_1_1_geo_rect_ae7bad7c3d14dcebc703b017d9e65db5d}{get\+Top\+Left\+Point} (void)
+\item 
+\hyperlink{class_geometry_1_1_geo_point}{Geo\+Point} $\ast$ \hyperlink{class_geometry_1_1_geo_rect_a2381bf993ba8606df7e4166d006161dc}{get\+Bottom\+Right\+Point} (void)
+\item 
+void \hyperlink{class_geometry_1_1_geo_rect_ac050f36853c4f0b7b9451c45e762efcb}{Re\+Calc\+Rect\+Param} (unsigned char n\+Based)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\+: \hyperlink{class_geometry_1_1_geo_rect}{Geometry\+::\+Geo\+Rect} \+: \hyperlink{namespace_geometry}{Geometry} \+: Class Described Methods and Attributes of \hyperlink{namespace_geometry}{Geometry} Rectangle \+: Liu\+Lei  on\+: 2014/12/02 \+: V1.\+0.\+0 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_geometry_1_1_geo_rect_a9820f510a951315831b4c385b4dd5f7f}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!Geo\+Rect@{Geo\+Rect}}
+\index{Geo\+Rect@{Geo\+Rect}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{Geo\+Rect}]{\setlength{\rightskip}{0pt plus 5cm}Geometry\+::\+Geo\+Rect\+::\+Geo\+Rect (
+\begin{DoxyParamCaption}
+\item[{int}]{n\+X1, }
+\item[{int}]{n\+Y1, }
+\item[{int}]{n\+Width, }
+\item[{int}]{n\+Height}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_a9820f510a951315831b4c385b4dd5f7f}
+\+: Geo\+Rect(int n\+X1, int n\+Y1, int n\+X2, int n\+Y2, int n\+Width, int n\+Height) \+: Custom Constructor Function 
+\begin{DoxyParams}{Parameters}
+{\em n\+X1} & \+: int \+: X coordinate of Top-\/\+Left Point in Rectangle \\
+\hline
+{\em n\+Y1} & \+: int \+: Y coordinate of Top-\/\+Left Point in Rectangle \\
+\hline
+{\em n\+Width} & \+: int \+: Width of Rectangle \\
+\hline
+{\em n\+Height} & \+: int \+: Height of Rectangle \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_geometry_1_1_geo_rect_ad6e348652bc62dc5198b7ac26aa2d177}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!Geo\+Rect@{Geo\+Rect}}
+\index{Geo\+Rect@{Geo\+Rect}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{Geo\+Rect}]{\setlength{\rightskip}{0pt plus 5cm}Geometry\+::\+Geo\+Rect\+::\+Geo\+Rect (
+\begin{DoxyParamCaption}
+\item[{{\bf Geo\+Point} $\ast$}]{p\+Top\+Left\+Pt, }
+\item[{{\bf Geo\+Point} $\ast$}]{p\+Bottom\+Right\+Pt}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_ad6e348652bc62dc5198b7ac26aa2d177}
+\+: Geo\+Rect(\+Geo\+Point$\ast$ p\+Top\+Left\+Pt, Geo\+Point$\ast$ p\+Bottom\+Right\+Pt, Geo\+Size$\ast$ p\+Size) \+: Custom Constructor Function 
+\begin{DoxyParams}{Parameters}
+{\em p\+Top\+Left\+Pt} & \+: Geo\+Point$\ast$ \+: Top-\/\+Left Point in Rectangle \\
+\hline
+{\em p\+Bottom\+Right\+Pt} & \+: Geo\+Point$\ast$ \+: Bottom-\/\+Right Point in Rectangle \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_geometry_1_1_geo_rect_ad26a503538fd77191ba71ad884a4b46e}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!Geo\+Rect@{Geo\+Rect}}
+\index{Geo\+Rect@{Geo\+Rect}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{Geo\+Rect}]{\setlength{\rightskip}{0pt plus 5cm}Geometry\+::\+Geo\+Rect\+::\+Geo\+Rect (
+\begin{DoxyParamCaption}
+\item[{{\bf Geo\+Point} $\ast$}]{p\+Top\+Left\+Pt, }
+\item[{{\bf Geo\+Size} $\ast$}]{p\+Size}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_ad26a503538fd77191ba71ad884a4b46e}
+\+: Geo\+Rect(\+Geo\+Point$\ast$ p\+Top\+Left\+Pt, Geo\+Point$\ast$ p\+Bottom\+Right\+Pt, Geo\+Size$\ast$ p\+Size) \+: Custom Constructor Function 
+\begin{DoxyParams}{Parameters}
+{\em p\+Top\+Left\+Pt} & \+: Geo\+Point$\ast$ \+: Top-\/\+Left Point in Rectangle \\
+\hline
+{\em p\+Size} & \+: Geo\+Size$\ast$ \+: Size of Rectangle \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_geometry_1_1_geo_rect_a3cc5173f88ded3b105e1c7ea7d551cd4}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!Geo\+Rect@{Geo\+Rect}}
+\index{Geo\+Rect@{Geo\+Rect}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{Geo\+Rect}]{\setlength{\rightskip}{0pt plus 5cm}Geometry\+::\+Geo\+Rect\+::\+Geo\+Rect (
+\begin{DoxyParamCaption}
+\item[{{\bf Geo\+Rect} \&}]{v\+Geo\+Rect}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_a3cc5173f88ded3b105e1c7ea7d551cd4}
+\+: \hyperlink{class_geometry_1_1_geo_rect_a3cc5173f88ded3b105e1c7ea7d551cd4}{Geo\+Rect(\+Geo\+Rect\& v\+Geo\+Rect)} \+: Overriding Copy Constructor Function 
+\begin{DoxyParams}{Parameters}
+{\em v\+Geo\+Rect} & \+: \hyperlink{class_geometry_1_1_geo_rect}{Geo\+Rect}\& \+: \hyperlink{class_geometry_1_1_geo_rect}{Geo\+Rect} Object \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_geometry_1_1_geo_rect_a3c0d278b693d72e695a01150492d11bb}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!Geo\+Rect@{Geo\+Rect}}
+\index{Geo\+Rect@{Geo\+Rect}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{Geo\+Rect}]{\setlength{\rightskip}{0pt plus 5cm}Geometry\+::\+Geo\+Rect\+::\+Geo\+Rect (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_a3c0d278b693d72e695a01150492d11bb}
+\+: \hyperlink{class_geometry_1_1_geo_rect_a3c0d278b693d72e695a01150492d11bb}{Geo\+Rect(void)} \+: Default Constructor Function \hypertarget{class_geometry_1_1_geo_rect_aef8f44244cf2ace1846e9406d22ed290}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!````~Geo\+Rect@{$\sim$\+Geo\+Rect}}
+\index{````~Geo\+Rect@{$\sim$\+Geo\+Rect}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{$\sim$\+Geo\+Rect}]{\setlength{\rightskip}{0pt plus 5cm}Geometry\+::\+Geo\+Rect\+::$\sim$\+Geo\+Rect (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_geometry_1_1_geo_rect_aef8f44244cf2ace1846e9406d22ed290}
+\+: $\sim$\+Geo\+Point(void) \+: Default Destructor Function Release Pointer
+
+Release Pointer
+
+Release Pointer 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_geometry_1_1_geo_rect_a2381bf993ba8606df7e4166d006161dc}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!get\+Bottom\+Right\+Point@{get\+Bottom\+Right\+Point}}
+\index{get\+Bottom\+Right\+Point@{get\+Bottom\+Right\+Point}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{get\+Bottom\+Right\+Point}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Geo\+Point} $\ast$ Geometry\+::\+Geo\+Rect\+::get\+Bottom\+Right\+Point (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_a2381bf993ba8606df7e4166d006161dc}
+\+: \hyperlink{class_geometry_1_1_geo_rect_a2381bf993ba8606df7e4166d006161dc}{get\+Bottom\+Right\+Point(void)} \+: Get Bottom-\/\+Right Point of Rectangle \begin{DoxyReturn}{Returns}
+Geo\+Point$\ast$ 
+\end{DoxyReturn}
+\hypertarget{class_geometry_1_1_geo_rect_a31afdf267816f65dbad8633ff1298394}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!get\+Size@{get\+Size}}
+\index{get\+Size@{get\+Size}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{get\+Size}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Geo\+Size} $\ast$ Geometry\+::\+Geo\+Rect\+::get\+Size (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_a31afdf267816f65dbad8633ff1298394}
+\+: \hyperlink{class_geometry_1_1_geo_rect_a31afdf267816f65dbad8633ff1298394}{get\+Size(void)} \+: Get Geosize Object of Rectangle \begin{DoxyReturn}{Returns}
+Geo\+Size$\ast$ 
+\end{DoxyReturn}
+\hypertarget{class_geometry_1_1_geo_rect_ae7bad7c3d14dcebc703b017d9e65db5d}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!get\+Top\+Left\+Point@{get\+Top\+Left\+Point}}
+\index{get\+Top\+Left\+Point@{get\+Top\+Left\+Point}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{get\+Top\+Left\+Point}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Geo\+Point} $\ast$ Geometry\+::\+Geo\+Rect\+::get\+Top\+Left\+Point (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_ae7bad7c3d14dcebc703b017d9e65db5d}
+\+: \hyperlink{class_geometry_1_1_geo_rect_ae7bad7c3d14dcebc703b017d9e65db5d}{get\+Top\+Left\+Point(void)} \+: Get Top-\/\+Left Point of Rectangle \begin{DoxyReturn}{Returns}
+Geo\+Point$\ast$ 
+\end{DoxyReturn}
+\hypertarget{class_geometry_1_1_geo_rect_ac050f36853c4f0b7b9451c45e762efcb}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!Re\+Calc\+Rect\+Param@{Re\+Calc\+Rect\+Param}}
+\index{Re\+Calc\+Rect\+Param@{Re\+Calc\+Rect\+Param}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{Re\+Calc\+Rect\+Param}]{\setlength{\rightskip}{0pt plus 5cm}void Geometry\+::\+Geo\+Rect\+::\+Re\+Calc\+Rect\+Param (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{n\+Based}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_ac050f36853c4f0b7b9451c45e762efcb}
+\+: Re\+Calc\+Rect\+Param(void) \+: Re-\/\+Calculate Parameters of Rectangle once something changed 
+\begin{DoxyParams}{Parameters}
+{\em n\+Based} & \+: unsigned char \+: Sign of the value which has been Changed Value \+: 0x01 \+: Top-\/\+Left or Bottom-\/\+Right Point 0x02 \+: Size\\
+\hline
+\end{DoxyParams}
+\+: Re\+Calc\+Rect\+Param(void) \+: Re-\/\+Calculate Parameters of Rectangle once something changed Top-\/\+Left or Bottom-\/\+Right Point Changed
+
+Size Changed \hypertarget{class_geometry_1_1_geo_rect_a091e050fde11c418273fbf3281f5846c}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!set\+Bottom\+Right\+Point@{set\+Bottom\+Right\+Point}}
+\index{set\+Bottom\+Right\+Point@{set\+Bottom\+Right\+Point}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{set\+Bottom\+Right\+Point}]{\setlength{\rightskip}{0pt plus 5cm}void Geometry\+::\+Geo\+Rect\+::set\+Bottom\+Right\+Point (
+\begin{DoxyParamCaption}
+\item[{int}]{n\+X, }
+\item[{int}]{n\+Y}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_a091e050fde11c418273fbf3281f5846c}
+\+: \hyperlink{class_geometry_1_1_geo_rect_a091e050fde11c418273fbf3281f5846c}{set\+Bottom\+Right\+Point(int n\+X, int n\+Y)} \+: Set Bottom-\/\+Right Point of Rectangle via X\&Y coordinates 
+\begin{DoxyParams}{Parameters}
+{\em n\+X} & \+: int \+: X coordinate of Bottom-\/\+Right Point \\
+\hline
+{\em n\+Y} & \+: int \+: Y coordinate of Bottom-\/\+Right Point \\
+\hline
+\end{DoxyParams}
+Set Bottom-\/\+Right Point Coordinate
+
+Re-\/\+Calculate Parameters of Rectangle \hypertarget{class_geometry_1_1_geo_rect_a1e6d0857c47d94b050c9540cfdc9e55f}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!set\+Bottom\+Right\+Point@{set\+Bottom\+Right\+Point}}
+\index{set\+Bottom\+Right\+Point@{set\+Bottom\+Right\+Point}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{set\+Bottom\+Right\+Point}]{\setlength{\rightskip}{0pt plus 5cm}void Geometry\+::\+Geo\+Rect\+::set\+Bottom\+Right\+Point (
+\begin{DoxyParamCaption}
+\item[{{\bf Geo\+Point} $\ast$}]{p\+Bottom\+Right\+Pt}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_a1e6d0857c47d94b050c9540cfdc9e55f}
+\+: \hyperlink{class_geometry_1_1_geo_rect_a1e6d0857c47d94b050c9540cfdc9e55f}{set\+Bottom\+Right\+Point(\+Geo\+Point$\ast$ p\+Bottom\+Righ\+Pt)} \+: Set Bottom-\/\+Right Point of Rectangle via \hyperlink{class_geometry_1_1_geo_point}{Geo\+Point} Object 
+\begin{DoxyParams}{Parameters}
+{\em p\+Top\+Left\+Pt} & \+: Geo\+Point$\ast$ \+: Bottom-\/\+Right Point Object \\
+\hline
+\end{DoxyParams}
+Set Bottom-\/\+Right Point Coordinate
+
+Re-\/\+Calculate Parameters of Rectangle \hypertarget{class_geometry_1_1_geo_rect_a4043826e979ef681f21318c5aa5a975e}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!set\+Size@{set\+Size}}
+\index{set\+Size@{set\+Size}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{set\+Size}]{\setlength{\rightskip}{0pt plus 5cm}void Geometry\+::\+Geo\+Rect\+::set\+Size (
+\begin{DoxyParamCaption}
+\item[{int}]{n\+Width, }
+\item[{int}]{n\+Height}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_a4043826e979ef681f21318c5aa5a975e}
+\+: \hyperlink{class_geometry_1_1_geo_rect_a4043826e979ef681f21318c5aa5a975e}{set\+Size(int n\+Width, int n\+Height)} \+: Set Size of Rectangle via Width\&Height 
+\begin{DoxyParams}{Parameters}
+{\em n\+Width} & \+: int \+: Width of Rectangle \\
+\hline
+{\em n\+Height} & \+: int \+: Height of Rectangle\\
+\hline
+\end{DoxyParams}
+\+: \hyperlink{class_geometry_1_1_geo_rect_a4043826e979ef681f21318c5aa5a975e}{set\+Size(int n\+Width, int n\+Height)} \+: Set Size of Rectangle via X\&Y coordinates 
+\begin{DoxyParams}{Parameters}
+{\em n\+Width} & \+: int \+: Width of Rectangle \\
+\hline
+{\em n\+Height} & \+: int \+: Height of Rectangle \\
+\hline
+\end{DoxyParams}
+Set Width\&Height of Size
+
+Re-\/\+Calculate Parameters of Rectangle \hypertarget{class_geometry_1_1_geo_rect_a51b0a80ba81aaad8092488d02d3dfde5}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!set\+Size@{set\+Size}}
+\index{set\+Size@{set\+Size}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{set\+Size}]{\setlength{\rightskip}{0pt plus 5cm}void Geometry\+::\+Geo\+Rect\+::set\+Size (
+\begin{DoxyParamCaption}
+\item[{{\bf Geo\+Size} $\ast$}]{size}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_a51b0a80ba81aaad8092488d02d3dfde5}
+\+: \hyperlink{class_geometry_1_1_geo_rect_a51b0a80ba81aaad8092488d02d3dfde5}{set\+Size(\+Geo\+Size$\ast$ p\+Size)} \+: Set Size of Rectangle via \hyperlink{class_geometry_1_1_geo_size}{Geo\+Size} object 
+\begin{DoxyParams}{Parameters}
+{\em p\+Size} & \+: Geo\+Size$\ast$ \+: Size of Rectangle \\
+\hline
+\end{DoxyParams}
+Set Width\&Height of Size
+
+Re-\/\+Calculate Parameters of Rectangle \hypertarget{class_geometry_1_1_geo_rect_a27ca9d13cceb4bfee56a2294e2b7fe6d}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!set\+Top\+Left\+Point@{set\+Top\+Left\+Point}}
+\index{set\+Top\+Left\+Point@{set\+Top\+Left\+Point}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{set\+Top\+Left\+Point}]{\setlength{\rightskip}{0pt plus 5cm}void Geometry\+::\+Geo\+Rect\+::set\+Top\+Left\+Point (
+\begin{DoxyParamCaption}
+\item[{int}]{n\+X, }
+\item[{int}]{n\+Y}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_a27ca9d13cceb4bfee56a2294e2b7fe6d}
+\+: \hyperlink{class_geometry_1_1_geo_rect_a27ca9d13cceb4bfee56a2294e2b7fe6d}{set\+Top\+Left\+Point(int n\+X, int n\+Y)} \+: Set Top-\/\+Left Point of Rectangle via X\&Y coordinates 
+\begin{DoxyParams}{Parameters}
+{\em n\+X} & \+: int \+: X coordinate of Top-\/\+Left Point \\
+\hline
+{\em n\+Y} & \+: int \+: Y coordinate of Top-\/\+Left Point \\
+\hline
+\end{DoxyParams}
+Set Top-\/\+Left Point Coordinate
+
+Re-\/\+Calculate Parameters of Rectangle \hypertarget{class_geometry_1_1_geo_rect_abf2a90d888fe3faa615f2b3de072d5ad}{\index{Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}!set\+Top\+Left\+Point@{set\+Top\+Left\+Point}}
+\index{set\+Top\+Left\+Point@{set\+Top\+Left\+Point}!Geometry\+::\+Geo\+Rect@{Geometry\+::\+Geo\+Rect}}
+\subsubsection[{set\+Top\+Left\+Point}]{\setlength{\rightskip}{0pt plus 5cm}void Geometry\+::\+Geo\+Rect\+::set\+Top\+Left\+Point (
+\begin{DoxyParamCaption}
+\item[{{\bf Geo\+Point} $\ast$}]{p\+Top\+Left\+Pt}
+\end{DoxyParamCaption}
+)}}\label{class_geometry_1_1_geo_rect_abf2a90d888fe3faa615f2b3de072d5ad}
+\+: \hyperlink{class_geometry_1_1_geo_rect_abf2a90d888fe3faa615f2b3de072d5ad}{set\+Top\+Left\+Point(\+Geo\+Point$\ast$ p\+Top\+Left\+Pt)} \+: Set Top-\/\+Left Point of Rectangle via \hyperlink{class_geometry_1_1_geo_point}{Geo\+Point} Object 
+\begin{DoxyParams}{Parameters}
+{\em p\+Top\+Left\+Pt} & \+: Geo\+Point$\ast$ \+: Top-\/\+Left Point Object \\
+\hline
+\end{DoxyParams}
+Set Top-\/\+Left Point Coordinate
+
+Re-\/\+Calculate Parameters of Rectangle 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/雷/\+Documents/\+Eclipse/\+Projects/\+Geometry/src/Geo\+Rect.\+h\item 
+C\+:/\+Users/雷/\+Documents/\+Eclipse/\+Projects/\+Geometry/src/Geo\+Rect.\+cpp\end{DoxyCompactItemize}

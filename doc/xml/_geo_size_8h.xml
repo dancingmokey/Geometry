@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="_geo_size_8h" kind="file">
+    <compoundname>GeoSize.h</compoundname>
+    <includedby refid="_geo_rect_8h" local="yes">C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h</includedby>
+    <includedby refid="_geo_size_8cpp" local="yes">C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.cpp</includedby>
+    <invincdepgraph>
+      <node id="31">
+        <label>C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h</label>
+        <link refid="GeoSize.h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h</label>
+        <link refid="_geo_rect_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_geometry_1_1_geo_size" prot="public">Geometry::GeoSize</innerclass>
+    <innernamespace refid="namespace_geometry">Geometry</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#ifndef<sp/>GEOSIZE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEOSIZE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_geometry" kindref="compound">Geometry</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_geometry_1_1_geo_size" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_geometry_1_1_geo_size" kindref="compound">GeoSize</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_size_1aa16a3b5494af1e8cf70cf4fd8aba8671" kindref="member">GeoSize</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nWidth,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nHeight);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_size_1aa16a3b5494af1e8cf70cf4fd8aba8671" kindref="member">GeoSize</ref>(<ref refid="class_geometry_1_1_geo_size" kindref="compound">GeoSize</ref>&amp;<sp/>vSize);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_size_1aa16a3b5494af1e8cf70cf4fd8aba8671" kindref="member">GeoSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_size_1a679d627f4055584b54d62db8d0fd27e6" kindref="member">~GeoSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_size_1aec253e3e476eb610ed158edfa73dad6c" kindref="member">setSize</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nWidth,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nHeight);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_size_1ade8cf6cde2437dfc613fa195381d0b80" kindref="member">setHeight</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nHeight);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_size_1ad58e522fe929007d04db32e7b6b255a2" kindref="member">setWidth</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nWidth);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_size_1a83b38c90839aea314d1bac712ea55ad0" kindref="member">getHeight</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_size_1a95124017274175ba8971dedb4d8255a6" kindref="member">getWidth</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_nWidth;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_nHeight;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>SuperChart<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>GEOSIZE_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h"/>
+  </compounddef>
+</doxygen>

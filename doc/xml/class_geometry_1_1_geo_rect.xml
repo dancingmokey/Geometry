@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_geometry_1_1_geo_rect" kind="class" prot="public">
+    <compoundname>Geometry::GeoRect</compoundname>
+    <includes refid="_geo_rect_8h" local="no">GeoRect.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_geometry_1_1_geo_rect_1a17b314eb1b1b2f44529756c6181cd77d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+        <definition>GeoPoint* Geometry::GeoRect::m_pTopLeftPt</definition>
+        <argsstring></argsstring>
+        <name>m_pTopLeftPt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: m_pTopLeftPt : GeoPoint* : Top-Left Point of Rectangle </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="158" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geometry_1_1_geo_rect_1af3d7091a4f44b1e907847ef5adbe345e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+        <definition>GeoPoint* Geometry::GeoRect::m_pBottomRightPt</definition>
+        <argsstring></argsstring>
+        <name>m_pBottomRightPt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: m_pBottomRightPt : GeoPoint* : Bottom-Right Point of Rectangle </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="163" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geometry_1_1_geo_rect_1ab58f66576e1489651d10ae9a7bda38fb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_geometry_1_1_geo_size" kindref="compound">GeoSize</ref> *</type>
+        <definition>GeoSize* Geometry::GeoRect::m_pSize</definition>
+        <argsstring></argsstring>
+        <name>m_pSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: m_pSize : GeoSize* : Size of Rectangle </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="168" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1a9820f510a951315831b4c385b4dd5f7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoRect::GeoRect</definition>
+        <argsstring>(int nX1, int nY1, int nWidth, int nHeight)</argsstring>
+        <name>GeoRect</name>
+        <param>
+          <type>int</type>
+          <declname>nX1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nY1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: GeoRect(int nX1, int nY1, int nX2, int nY2, int nWidth, int nHeight) : Custom Constructor Function <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nX1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : X coordinate of Top-Left Point in Rectangle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nY1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Y coordinate of Top-Left Point in Rectangle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Width of Rectangle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Height of Rectangle </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="40" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="23" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1ad6e348652bc62dc5198b7ac26aa2d177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoRect::GeoRect</definition>
+        <argsstring>(GeoPoint *pTopLeftPt, GeoPoint *pBottomRightPt)</argsstring>
+        <name>GeoRect</name>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+          <declname>pTopLeftPt</declname>
+        </param>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+          <declname>pBottomRightPt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: GeoRect(GeoPoint* pTopLeftPt, GeoPoint* pBottomRightPt, GeoSize* pSize) : Custom Constructor Function <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pTopLeftPt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: GeoPoint* : Top-Left Point in Rectangle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pBottomRightPt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: GeoPoint* : Bottom-Right Point in Rectangle </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="48" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="37" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1ad26a503538fd77191ba71ad884a4b46e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoRect::GeoRect</definition>
+        <argsstring>(GeoPoint *pTopLeftPt, GeoSize *pSize)</argsstring>
+        <name>GeoRect</name>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+          <declname>pTopLeftPt</declname>
+        </param>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_size" kindref="compound">GeoSize</ref> *</type>
+          <declname>pSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: GeoRect(GeoPoint* pTopLeftPt, GeoPoint* pBottomRightPt, GeoSize* pSize) : Custom Constructor Function <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pTopLeftPt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: GeoPoint* : Top-Left Point in Rectangle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: GeoSize* : Size of Rectangle </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="56" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="53" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1a3cc5173f88ded3b105e1c7ea7d551cd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoRect::GeoRect</definition>
+        <argsstring>(GeoRect &amp;vGeoRect)</argsstring>
+        <name>GeoRect</name>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_rect" kindref="compound">GeoRect</ref> &amp;</type>
+          <declname>vGeoRect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_rect_1a3cc5173f88ded3b105e1c7ea7d551cd4" kindref="member">GeoRect(GeoRect&amp; vGeoRect)</ref> : Overriding Copy Constructor Function <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vGeoRect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: <ref refid="class_geometry_1_1_geo_rect" kindref="compound">GeoRect</ref>&amp; : <ref refid="class_geometry_1_1_geo_rect" kindref="compound">GeoRect</ref> Object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="63" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="68" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1a3c0d278b693d72e695a01150492d11bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoRect::GeoRect</definition>
+        <argsstring>()</argsstring>
+        <name>GeoRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_rect_1a3c0d278b693d72e695a01150492d11bb" kindref="member">GeoRect(void)</ref> : Default Constructor Function </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="69" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="80" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1aef8f44244cf2ace1846e9406d22ed290" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Geometry::GeoRect::~GeoRect</definition>
+        <argsstring>()</argsstring>
+        <name>~GeoRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: ~GeoPoint(void) : Default Destructor Function </para>        </detaileddescription>
+        <inbodydescription>
+<para>Release Pointer</para><para>Release Pointer</para><para>Release Pointer </para>        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="75" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="93" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1a31afdf267816f65dbad8633ff1298394" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_geometry_1_1_geo_size" kindref="compound">GeoSize</ref> *</type>
+        <definition>GeoSize * Geometry::GeoRect::getSize</definition>
+        <argsstring>(void)</argsstring>
+        <name>getSize</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_rect_1a31afdf267816f65dbad8633ff1298394" kindref="member">getSize(void)</ref> : Get Geosize Object of Rectangle <simplesect kind="return"><para>GeoSize* </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="83" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1a4043826e979ef681f21318c5aa5a975e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoRect::setSize</definition>
+        <argsstring>(int nWidth, int nHeight)</argsstring>
+        <name>setSize</name>
+        <param>
+          <type>int</type>
+          <declname>nWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_rect_1a4043826e979ef681f21318c5aa5a975e" kindref="member">setSize(int nWidth, int nHeight)</ref> : Set Size of Rectangle via Width&amp;Height <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Width of Rectangle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Height of Rectangle</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+: <ref refid="class_geometry_1_1_geo_rect_1a4043826e979ef681f21318c5aa5a975e" kindref="member">setSize(int nWidth, int nHeight)</ref> : Set Size of Rectangle via X&amp;Y coordinates <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Width of Rectangle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Height of Rectangle </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Set Width&amp;Height of Size</para><para>Re-Calculate Parameters of Rectangle </para>        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="91" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="133" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1a51b0a80ba81aaad8092488d02d3dfde5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoRect::setSize</definition>
+        <argsstring>(GeoSize *pSize)</argsstring>
+        <name>setSize</name>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_size" kindref="compound">GeoSize</ref> *</type>
+          <declname>pSize</declname>
+          <defname>size</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_rect_1a51b0a80ba81aaad8092488d02d3dfde5" kindref="member">setSize(GeoSize* pSize)</ref> : Set Size of Rectangle via <ref refid="class_geometry_1_1_geo_size" kindref="compound">GeoSize</ref> object <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: GeoSize* : Size of Rectangle </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Set Width&amp;Height of Size</para><para>Re-Calculate Parameters of Rectangle </para>        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="98" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="148" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1a27ca9d13cceb4bfee56a2294e2b7fe6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoRect::setTopLeftPoint</definition>
+        <argsstring>(int nX, int nY)</argsstring>
+        <name>setTopLeftPoint</name>
+        <param>
+          <type>int</type>
+          <declname>nX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_rect_1a27ca9d13cceb4bfee56a2294e2b7fe6d" kindref="member">setTopLeftPoint(int nX, int nY)</ref> : Set Top-Left Point of Rectangle via X&amp;Y coordinates <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : X coordinate of Top-Left Point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Y coordinate of Top-Left Point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Set Top-Left Point Coordinate</para><para>Re-Calculate Parameters of Rectangle </para>        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="106" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="163" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1abf2a90d888fe3faa615f2b3de072d5ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoRect::setTopLeftPoint</definition>
+        <argsstring>(GeoPoint *pTopLeftPt)</argsstring>
+        <name>setTopLeftPoint</name>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+          <declname>pTopLeftPt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_rect_1abf2a90d888fe3faa615f2b3de072d5ad" kindref="member">setTopLeftPoint(GeoPoint* pTopLeftPt)</ref> : Set Top-Left Point of Rectangle via <ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> Object <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pTopLeftPt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: GeoPoint* : Top-Left Point Object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Set Top-Left Point Coordinate</para><para>Re-Calculate Parameters of Rectangle </para>        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="113" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="178" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1a091e050fde11c418273fbf3281f5846c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoRect::setBottomRightPoint</definition>
+        <argsstring>(int nX, int nY)</argsstring>
+        <name>setBottomRightPoint</name>
+        <param>
+          <type>int</type>
+          <declname>nX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_rect_1a091e050fde11c418273fbf3281f5846c" kindref="member">setBottomRightPoint(int nX, int nY)</ref> : Set Bottom-Right Point of Rectangle via X&amp;Y coordinates <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : X coordinate of Bottom-Right Point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Y coordinate of Bottom-Right Point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Set Bottom-Right Point Coordinate</para><para>Re-Calculate Parameters of Rectangle </para>        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="121" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="193" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1a1e6d0857c47d94b050c9540cfdc9e55f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoRect::setBottomRightPoint</definition>
+        <argsstring>(GeoPoint *pBottomRighPt)</argsstring>
+        <name>setBottomRightPoint</name>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+          <declname>pBottomRighPt</declname>
+          <defname>pBottomRightPt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_rect_1a1e6d0857c47d94b050c9540cfdc9e55f" kindref="member">setBottomRightPoint(GeoPoint* pBottomRighPt)</ref> : Set Bottom-Right Point of Rectangle via <ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> Object <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pTopLeftPt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: GeoPoint* : Bottom-Right Point Object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Set Bottom-Right Point Coordinate</para><para>Re-Calculate Parameters of Rectangle </para>        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="128" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="208" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1ae7bad7c3d14dcebc703b017d9e65db5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+        <definition>GeoPoint * Geometry::GeoRect::getTopLeftPoint</definition>
+        <argsstring>(void)</argsstring>
+        <name>getTopLeftPoint</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_rect_1ae7bad7c3d14dcebc703b017d9e65db5d" kindref="member">getTopLeftPoint(void)</ref> : Get Top-Left Point of Rectangle <simplesect kind="return"><para>GeoPoint* </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="135" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="222" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1a2381bf993ba8606df7e4166d006161dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+        <definition>GeoPoint * Geometry::GeoRect::getBottomRightPoint</definition>
+        <argsstring>(void)</argsstring>
+        <name>getBottomRightPoint</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_rect_1a2381bf993ba8606df7e4166d006161dc" kindref="member">getBottomRightPoint(void)</ref> : Get Bottom-Right Point of Rectangle <simplesect kind="return"><para>GeoPoint* </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="142" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="232" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_rect_1ac050f36853c4f0b7b9451c45e762efcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoRect::ReCalcRectParam</definition>
+        <argsstring>(unsigned char nBased)</argsstring>
+        <name>ReCalcRectParam</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>nBased</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: ReCalcRectParam(void) : Re-Calculate Parameters of Rectangle once something changed <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nBased</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: unsigned char : Sign of the value which has been Changed Value : 0x01 : Top-Left or Bottom-Right Point 0x02 : Size</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+: ReCalcRectParam(void) : Re-Calculate Parameters of Rectangle once something changed </para>        </detaileddescription>
+        <inbodydescription>
+<para>Top-Left or Bottom-Right Point Changed</para><para>Size Changed </para>        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="152" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp" bodystart="241" bodyend="261"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_rect" kindref="compound">Geometry::GeoRect</ref> : <ref refid="namespace_geometry" kindref="compound">Geometry</ref> : Class Described Methods and Attributes of <ref refid="namespace_geometry" kindref="compound">Geometry</ref> Rectangle : LiuLei  on: 2014/12/02 : V1.0.0 </para>    </detaileddescription>
+    <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" line="30" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h" bodystart="29" bodyend="169"/>
+    <listofallmembers>
+      <member refid="class_geometry_1_1_geo_rect_1a9820f510a951315831b4c385b4dd5f7f" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>GeoRect</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1ad6e348652bc62dc5198b7ac26aa2d177" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>GeoRect</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1ad26a503538fd77191ba71ad884a4b46e" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>GeoRect</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1a3cc5173f88ded3b105e1c7ea7d551cd4" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>GeoRect</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1a3c0d278b693d72e695a01150492d11bb" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>GeoRect</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1a2381bf993ba8606df7e4166d006161dc" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>getBottomRightPoint</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1a31afdf267816f65dbad8633ff1298394" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>getSize</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1ae7bad7c3d14dcebc703b017d9e65db5d" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>getTopLeftPoint</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1af3d7091a4f44b1e907847ef5adbe345e" prot="private" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>m_pBottomRightPt</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1ab58f66576e1489651d10ae9a7bda38fb" prot="private" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>m_pSize</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1a17b314eb1b1b2f44529756c6181cd77d" prot="private" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>m_pTopLeftPt</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1ac050f36853c4f0b7b9451c45e762efcb" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>ReCalcRectParam</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1a091e050fde11c418273fbf3281f5846c" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>setBottomRightPoint</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1a1e6d0857c47d94b050c9540cfdc9e55f" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>setBottomRightPoint</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1a4043826e979ef681f21318c5aa5a975e" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>setSize</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1a51b0a80ba81aaad8092488d02d3dfde5" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>setSize</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1a27ca9d13cceb4bfee56a2294e2b7fe6d" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>setTopLeftPoint</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1abf2a90d888fe3faa615f2b3de072d5ad" prot="public" virt="non-virtual"><scope>Geometry::GeoRect</scope><name>setTopLeftPoint</name></member>
+      <member refid="class_geometry_1_1_geo_rect_1aef8f44244cf2ace1846e9406d22ed290" prot="public" virt="virtual"><scope>Geometry::GeoRect</scope><name>~GeoRect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

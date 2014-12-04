@@ -1,0 +1,246 @@
+.TH "Geometry::GeoRect" 3 "Thu Dec 4 2014" "Version Version 1.0.0" "Geometry" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Geometry::GeoRect \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <GeoRect\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGeoRect\fP (int nX1, int nY1, int nWidth, int nHeight)"
+.br
+.ti -1c
+.RI "\fBGeoRect\fP (\fBGeoPoint\fP *pTopLeftPt, \fBGeoPoint\fP *pBottomRightPt)"
+.br
+.ti -1c
+.RI "\fBGeoRect\fP (\fBGeoPoint\fP *pTopLeftPt, \fBGeoSize\fP *pSize)"
+.br
+.ti -1c
+.RI "\fBGeoRect\fP (\fBGeoRect\fP &vGeoRect)"
+.br
+.ti -1c
+.RI "\fBGeoRect\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~GeoRect\fP ()"
+.br
+.ti -1c
+.RI "\fBGeoSize\fP * \fBgetSize\fP (void)"
+.br
+.ti -1c
+.RI "void \fBsetSize\fP (int nWidth, int nHeight)"
+.br
+.ti -1c
+.RI "void \fBsetSize\fP (\fBGeoSize\fP *pSize)"
+.br
+.ti -1c
+.RI "void \fBsetTopLeftPoint\fP (int nX, int nY)"
+.br
+.ti -1c
+.RI "void \fBsetTopLeftPoint\fP (\fBGeoPoint\fP *pTopLeftPt)"
+.br
+.ti -1c
+.RI "void \fBsetBottomRightPoint\fP (int nX, int nY)"
+.br
+.ti -1c
+.RI "void \fBsetBottomRightPoint\fP (\fBGeoPoint\fP *pBottomRighPt)"
+.br
+.ti -1c
+.RI "\fBGeoPoint\fP * \fBgetTopLeftPoint\fP (void)"
+.br
+.ti -1c
+.RI "\fBGeoPoint\fP * \fBgetBottomRightPoint\fP (void)"
+.br
+.ti -1c
+.RI "void \fBReCalcRectParam\fP (unsigned char nBased)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+: \fBGeometry::GeoRect\fP : \fBGeometry\fP : Class Described Methods and Attributes of \fBGeometry\fP Rectangle : LiuLei  on: 2014/12/02 : V1\&.0\&.0 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Geometry::GeoRect::GeoRect (intnX1, intnY1, intnWidth, intnHeight)"
+: GeoRect(int nX1, int nY1, int nX2, int nY2, int nWidth, int nHeight) : Custom Constructor Function 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInX1\fP : int : X coordinate of Top-Left Point in Rectangle 
+.br
+\fInY1\fP : int : Y coordinate of Top-Left Point in Rectangle 
+.br
+\fInWidth\fP : int : Width of Rectangle 
+.br
+\fInHeight\fP : int : Height of Rectangle 
+.RE
+.PP
+
+.SS "Geometry::GeoRect::GeoRect (\fBGeoPoint\fP *pTopLeftPt, \fBGeoPoint\fP *pBottomRightPt)"
+: GeoRect(GeoPoint* pTopLeftPt, GeoPoint* pBottomRightPt, GeoSize* pSize) : Custom Constructor Function 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpTopLeftPt\fP : GeoPoint* : Top-Left Point in Rectangle 
+.br
+\fIpBottomRightPt\fP : GeoPoint* : Bottom-Right Point in Rectangle 
+.RE
+.PP
+
+.SS "Geometry::GeoRect::GeoRect (\fBGeoPoint\fP *pTopLeftPt, \fBGeoSize\fP *pSize)"
+: GeoRect(GeoPoint* pTopLeftPt, GeoPoint* pBottomRightPt, GeoSize* pSize) : Custom Constructor Function 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpTopLeftPt\fP : GeoPoint* : Top-Left Point in Rectangle 
+.br
+\fIpSize\fP : GeoSize* : Size of Rectangle 
+.RE
+.PP
+
+.SS "Geometry::GeoRect::GeoRect (\fBGeoRect\fP &vGeoRect)"
+: \fBGeoRect(GeoRect& vGeoRect)\fP : Overriding Copy Constructor Function 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvGeoRect\fP : \fBGeoRect\fP& : \fBGeoRect\fP Object 
+.RE
+.PP
+
+.SS "Geometry::GeoRect::GeoRect ()"
+: \fBGeoRect(void)\fP : Default Constructor Function 
+.SS "Geometry::GeoRect::~GeoRect ()\fC [virtual]\fP"
+: ~GeoPoint(void) : Default Destructor Function Release Pointer
+.PP
+Release Pointer
+.PP
+Release Pointer 
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBGeoPoint\fP * Geometry::GeoRect::getBottomRightPoint (void)"
+: \fBgetBottomRightPoint(void)\fP : Get Bottom-Right Point of Rectangle 
+.PP
+\fBReturns:\fP
+.RS 4
+GeoPoint* 
+.RE
+.PP
+
+.SS "\fBGeoSize\fP * Geometry::GeoRect::getSize (void)"
+: \fBgetSize(void)\fP : Get Geosize Object of Rectangle 
+.PP
+\fBReturns:\fP
+.RS 4
+GeoSize* 
+.RE
+.PP
+
+.SS "\fBGeoPoint\fP * Geometry::GeoRect::getTopLeftPoint (void)"
+: \fBgetTopLeftPoint(void)\fP : Get Top-Left Point of Rectangle 
+.PP
+\fBReturns:\fP
+.RS 4
+GeoPoint* 
+.RE
+.PP
+
+.SS "void Geometry::GeoRect::ReCalcRectParam (unsigned charnBased)"
+: ReCalcRectParam(void) : Re-Calculate Parameters of Rectangle once something changed 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInBased\fP : unsigned char : Sign of the value which has been Changed Value : 0x01 : Top-Left or Bottom-Right Point 0x02 : Size
+.RE
+.PP
+: ReCalcRectParam(void) : Re-Calculate Parameters of Rectangle once something changed Top-Left or Bottom-Right Point Changed
+.PP
+Size Changed 
+.SS "void Geometry::GeoRect::setBottomRightPoint (intnX, intnY)"
+: \fBsetBottomRightPoint(int nX, int nY)\fP : Set Bottom-Right Point of Rectangle via X&Y coordinates 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInX\fP : int : X coordinate of Bottom-Right Point 
+.br
+\fInY\fP : int : Y coordinate of Bottom-Right Point 
+.RE
+.PP
+Set Bottom-Right Point Coordinate
+.PP
+Re-Calculate Parameters of Rectangle 
+.SS "void Geometry::GeoRect::setBottomRightPoint (\fBGeoPoint\fP *pBottomRightPt)"
+: \fBsetBottomRightPoint(GeoPoint* pBottomRighPt)\fP : Set Bottom-Right Point of Rectangle via \fBGeoPoint\fP Object 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpTopLeftPt\fP : GeoPoint* : Bottom-Right Point Object 
+.RE
+.PP
+Set Bottom-Right Point Coordinate
+.PP
+Re-Calculate Parameters of Rectangle 
+.SS "void Geometry::GeoRect::setSize (intnWidth, intnHeight)"
+: \fBsetSize(int nWidth, int nHeight)\fP : Set Size of Rectangle via Width&Height 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInWidth\fP : int : Width of Rectangle 
+.br
+\fInHeight\fP : int : Height of Rectangle
+.RE
+.PP
+: \fBsetSize(int nWidth, int nHeight)\fP : Set Size of Rectangle via X&Y coordinates 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInWidth\fP : int : Width of Rectangle 
+.br
+\fInHeight\fP : int : Height of Rectangle 
+.RE
+.PP
+Set Width&Height of Size
+.PP
+Re-Calculate Parameters of Rectangle 
+.SS "void Geometry::GeoRect::setSize (\fBGeoSize\fP *size)"
+: \fBsetSize(GeoSize* pSize)\fP : Set Size of Rectangle via \fBGeoSize\fP object 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpSize\fP : GeoSize* : Size of Rectangle 
+.RE
+.PP
+Set Width&Height of Size
+.PP
+Re-Calculate Parameters of Rectangle 
+.SS "void Geometry::GeoRect::setTopLeftPoint (intnX, intnY)"
+: \fBsetTopLeftPoint(int nX, int nY)\fP : Set Top-Left Point of Rectangle via X&Y coordinates 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInX\fP : int : X coordinate of Top-Left Point 
+.br
+\fInY\fP : int : Y coordinate of Top-Left Point 
+.RE
+.PP
+Set Top-Left Point Coordinate
+.PP
+Re-Calculate Parameters of Rectangle 
+.SS "void Geometry::GeoRect::setTopLeftPoint (\fBGeoPoint\fP *pTopLeftPt)"
+: \fBsetTopLeftPoint(GeoPoint* pTopLeftPt)\fP : Set Top-Left Point of Rectangle via \fBGeoPoint\fP Object 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpTopLeftPt\fP : GeoPoint* : Top-Left Point Object 
+.RE
+.PP
+Set Top-Left Point Coordinate
+.PP
+Re-Calculate Parameters of Rectangle 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Geometry from the source code\&.

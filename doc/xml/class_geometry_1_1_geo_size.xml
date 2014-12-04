@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_geometry_1_1_geo_size" kind="class" prot="public">
+    <compoundname>Geometry::GeoSize</compoundname>
+    <includes refid="_geo_size_8h" local="no">GeoSize.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_geometry_1_1_geo_size_1aba593969549ae780bd9dc365c33dc476" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Geometry::GeoSize::m_nWidth</definition>
+        <argsstring></argsstring>
+        <name>m_nWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: m_nWidth : int : Width of Size </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" line="95" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geometry_1_1_geo_size_1acec95d673d55844cc41e677c2f082649" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Geometry::GeoSize::m_nHeight</definition>
+        <argsstring></argsstring>
+        <name>m_nHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: m_nHeight : int : Height of Size </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" line="99" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_geometry_1_1_geo_size_1a49ff629e779cf2915f2ab6db76fdbd88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoSize::GeoSize</definition>
+        <argsstring>(int nWidth, int nHeight)</argsstring>
+        <name>GeoSize</name>
+        <param>
+          <type>int</type>
+          <declname>nWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_size_1a49ff629e779cf2915f2ab6db76fdbd88" kindref="member">GeoSize(int nWidth, int nHeight)</ref> : Custom Constructor Function <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Width of Size </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Height of Size </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" line="33" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.cpp" bodystart="21" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_size_1a1c3e2135dc690464ee971fbb46580d1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoSize::GeoSize</definition>
+        <argsstring>(GeoSize &amp;vSize)</argsstring>
+        <name>GeoSize</name>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_size" kindref="compound">GeoSize</ref> &amp;</type>
+          <declname>vSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_size_1a1c3e2135dc690464ee971fbb46580d1a" kindref="member">GeoSize(GeoSize&amp; vSize)</ref> : Overriding Copy Constructor Function <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: <ref refid="class_geometry_1_1_geo_size" kindref="compound">GeoSize</ref>&amp; : <ref refid="class_geometry_1_1_geo_size" kindref="compound">GeoSize</ref> Object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" line="40" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.cpp" bodystart="33" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_size_1aa16a3b5494af1e8cf70cf4fd8aba8671" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoSize::GeoSize</definition>
+        <argsstring>(void)</argsstring>
+        <name>GeoSize</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: GeoPoint(void) : Default Constructor Function </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" line="46" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.cpp" bodystart="44" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_size_1a679d627f4055584b54d62db8d0fd27e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Geometry::GeoSize::~GeoSize</definition>
+        <argsstring>(void)</argsstring>
+        <name>~GeoSize</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: ~GeoPoint(void) : Default Destructor Function </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" line="52" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.cpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_size_1aec253e3e476eb610ed158edfa73dad6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoSize::setSize</definition>
+        <argsstring>(int nWidth, int nHeight)</argsstring>
+        <name>setSize</name>
+        <param>
+          <type>int</type>
+          <declname>nWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nHeight</declname>
+          <defname>nHeight2</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_size_1aec253e3e476eb610ed158edfa73dad6c" kindref="member">setSize(int nWidth, int nHeight)</ref> : Set Size of Rectangle via Width&amp;Height <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Width of Size </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Height of Size </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" line="61" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.cpp" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_size_1ade8cf6cde2437dfc613fa195381d0b80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoSize::setHeight</definition>
+        <argsstring>(int nHeight)</argsstring>
+        <name>setHeight</name>
+        <param>
+          <type>int</type>
+          <declname>nHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_size_1ade8cf6cde2437dfc613fa195381d0b80" kindref="member">setHeight(int nHeight)</ref> : Set Height of Size <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Height of Size </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" line="68" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.cpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_size_1ad58e522fe929007d04db32e7b6b255a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoSize::setWidth</definition>
+        <argsstring>(int nWidth)</argsstring>
+        <name>setWidth</name>
+        <param>
+          <type>int</type>
+          <declname>nWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_size_1ad58e522fe929007d04db32e7b6b255a2" kindref="member">setWidth(int nWidth)</ref> : Set Width of Size <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Width of Size </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" line="75" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.cpp" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_size_1a83b38c90839aea314d1bac712ea55ad0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Geometry::GeoSize::getHeight</definition>
+        <argsstring>(void) const </argsstring>
+        <name>getHeight</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: getHeight(void) : Get Height of Size <simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" line="82" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.cpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_size_1a95124017274175ba8971dedb4d8255a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Geometry::GeoSize::getWidth</definition>
+        <argsstring>() const </argsstring>
+        <name>getWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: getWidth(void) : Get Width of Size <simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" line="89" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.cpp" bodystart="97" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>: SuperChart::GeoSize : <ref refid="namespace_geometry" kindref="compound">Geometry</ref> : Class Described Methods and Attributes of <ref refid="namespace_geometry" kindref="compound">Geometry</ref> Size : LiuLei  on: 2014/12/02 : V1.0.0 </para>    </detaileddescription>
+    <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" line="25" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoSize.h" bodystart="24" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_geometry_1_1_geo_size_1a49ff629e779cf2915f2ab6db76fdbd88" prot="public" virt="non-virtual"><scope>Geometry::GeoSize</scope><name>GeoSize</name></member>
+      <member refid="class_geometry_1_1_geo_size_1a1c3e2135dc690464ee971fbb46580d1a" prot="public" virt="non-virtual"><scope>Geometry::GeoSize</scope><name>GeoSize</name></member>
+      <member refid="class_geometry_1_1_geo_size_1aa16a3b5494af1e8cf70cf4fd8aba8671" prot="public" virt="non-virtual"><scope>Geometry::GeoSize</scope><name>GeoSize</name></member>
+      <member refid="class_geometry_1_1_geo_size_1a83b38c90839aea314d1bac712ea55ad0" prot="public" virt="non-virtual"><scope>Geometry::GeoSize</scope><name>getHeight</name></member>
+      <member refid="class_geometry_1_1_geo_size_1a95124017274175ba8971dedb4d8255a6" prot="public" virt="non-virtual"><scope>Geometry::GeoSize</scope><name>getWidth</name></member>
+      <member refid="class_geometry_1_1_geo_size_1acec95d673d55844cc41e677c2f082649" prot="private" virt="non-virtual"><scope>Geometry::GeoSize</scope><name>m_nHeight</name></member>
+      <member refid="class_geometry_1_1_geo_size_1aba593969549ae780bd9dc365c33dc476" prot="private" virt="non-virtual"><scope>Geometry::GeoSize</scope><name>m_nWidth</name></member>
+      <member refid="class_geometry_1_1_geo_size_1ade8cf6cde2437dfc613fa195381d0b80" prot="public" virt="non-virtual"><scope>Geometry::GeoSize</scope><name>setHeight</name></member>
+      <member refid="class_geometry_1_1_geo_size_1aec253e3e476eb610ed158edfa73dad6c" prot="public" virt="non-virtual"><scope>Geometry::GeoSize</scope><name>setSize</name></member>
+      <member refid="class_geometry_1_1_geo_size_1ad58e522fe929007d04db32e7b6b255a2" prot="public" virt="non-virtual"><scope>Geometry::GeoSize</scope><name>setWidth</name></member>
+      <member refid="class_geometry_1_1_geo_size_1a679d627f4055584b54d62db8d0fd27e6" prot="public" virt="virtual"><scope>Geometry::GeoSize</scope><name>~GeoSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

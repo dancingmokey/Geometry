@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_geometry_1_1_geo_line" kind="class" prot="public">
+    <compoundname>Geometry::GeoLine</compoundname>
+    <includes refid="_geo_line_8h" local="no">GeoLine.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_geometry_1_1_geo_line_1ae8e86c92a98e7652559176741a4b0fb1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+        <definition>GeoPoint* Geometry::GeoLine::m_pStartPt</definition>
+        <argsstring></argsstring>
+        <name>m_pStartPt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: m_pStartPt : GeoPoint* : Start Point of Line </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" line="116" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geometry_1_1_geo_line_1a8c6d854bb54b592c5e54bfa45f1b9136" prot="private" static="no" mutable="no">
+        <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+        <definition>GeoPoint* Geometry::GeoLine::m_pEndPt</definition>
+        <argsstring></argsstring>
+        <name>m_pEndPt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: m_pEndPt : GeoPoint* : End Point of Line </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" line="120" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_geometry_1_1_geo_line_1a0203f097bd18ba73bcaeff41ff468420" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoLine::GeoLine</definition>
+        <argsstring>(int nX1, int nY1, int nX2, int nY2)</argsstring>
+        <name>GeoLine</name>
+        <param>
+          <type>int</type>
+          <declname>nX1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nY1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nX2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nY2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_line_1a0203f097bd18ba73bcaeff41ff468420" kindref="member">GeoLine(int nX1, int nY1, int nX2, int nY2)</ref> : Custom Constructor Function <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nX1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : X Coordinate of Start Point in Line </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nY1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Y Coordinate of Start Point in Line </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nX2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : X Coordinate of End Point in Line </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nY2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Y Coordinate of End Point in Line </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" line="38" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.cpp" bodystart="23" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_line_1a2fa9b88fe9d44324f15e8b8d15f769a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoLine::GeoLine</definition>
+        <argsstring>(GeoPoint *pStartPt, GeoPoint *pEndPt)</argsstring>
+        <name>GeoLine</name>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+          <declname>pStartPt</declname>
+        </param>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+          <declname>pEndPt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_line_1a2fa9b88fe9d44324f15e8b8d15f769a9" kindref="member">GeoLine(GeoPoint* pStartPt, GeoPoint* pEndPt)</ref> : Custom Constructor Function <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pStartPt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: GeoPoint* : Start Point in Line </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pEndPt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: GeoPoint* : End Point in Line </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" line="46" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.cpp" bodystart="37" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_line_1ad34fe7bd15a905a08a9593b67abdc25c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoLine::GeoLine</definition>
+        <argsstring>(GeoLine &amp;vLine)</argsstring>
+        <name>GeoLine</name>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_line" kindref="compound">GeoLine</ref> &amp;</type>
+          <declname>vLine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: GeoSize(GeoSize&amp; vSize) : Overriding Copy Constructor Function <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vLine</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: <ref refid="class_geometry_1_1_geo_line" kindref="compound">GeoLine</ref>&amp; : <ref refid="class_geometry_1_1_geo_line" kindref="compound">GeoLine</ref> Object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" line="53" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.cpp" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_line_1a4ea983b5dfd6a3d2ecf1d07279e0fc3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoLine::GeoLine</definition>
+        <argsstring>()</argsstring>
+        <name>GeoLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_line_1a4ea983b5dfd6a3d2ecf1d07279e0fc3d" kindref="member">GeoLine(void)</ref> : Default Constructor Function </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" line="59" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.cpp" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_line_1a382877221f6aa61eb8161ef9499e4490" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Geometry::GeoLine::~GeoLine</definition>
+        <argsstring>()</argsstring>
+        <name>~GeoLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_line_1a382877221f6aa61eb8161ef9499e4490" kindref="member">~GeoLine(void)</ref> : Default Destructor Function </para>        </detaileddescription>
+        <inbodydescription>
+<para>Release Pointer</para><para>Release Pointer </para>        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" line="65" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.cpp" bodystart="72" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_line_1a5087cd127a61944da6611a6495eb2c9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoLine::setStartPoint</definition>
+        <argsstring>(int nX, int nY)</argsstring>
+        <name>setStartPoint</name>
+        <param>
+          <type>int</type>
+          <declname>nX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_line_1a5087cd127a61944da6611a6495eb2c9c" kindref="member">setStartPoint(int nX, int nY)</ref> : Set Start Point of Line via X&amp;Y corrdinate <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : X corrdinate of the Start Point in Line </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Y corrdinate of the Start Point in Line </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" line="74" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.cpp" bodystart="95" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_line_1a0eec9e822243f07aa833d7750649877c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoLine::setStartPoint</definition>
+        <argsstring>(GeoPoint *pStartPt)</argsstring>
+        <name>setStartPoint</name>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+          <declname>pStartPt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_line_1a0eec9e822243f07aa833d7750649877c" kindref="member">setStartPoint(GeoPoint* pStartPt)</ref> : Set Start Point of Line via <ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> Object <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pStartPt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: GeoPoint* : <ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> Object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" line="81" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.cpp" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_line_1ab6b720dcb1b1bda68c9a480c7e90e972" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoLine::setEndPoint</definition>
+        <argsstring>(int nX, int nY)</argsstring>
+        <name>setEndPoint</name>
+        <param>
+          <type>int</type>
+          <declname>nX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_line_1ab6b720dcb1b1bda68c9a480c7e90e972" kindref="member">setEndPoint(int nX, int nY)</ref> : Set End Point of Line via X&amp;Y corrdinate <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : X corrdinate of the End Point in Line </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Y corrdinate of the End Point in Line </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" line="89" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.cpp" bodystart="117" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_line_1aa20821de88980b6d3c83db2e7e992682" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoLine::setEndPoint</definition>
+        <argsstring>(GeoPoint *pEndPt)</argsstring>
+        <name>setEndPoint</name>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+          <declname>pEndPt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_line_1aa20821de88980b6d3c83db2e7e992682" kindref="member">setEndPoint(GeoPoint* pStartPt)</ref> : Set End Point of Line via <ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> Object <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pStartPt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: GeoPoint* : <ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> Object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" line="96" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.cpp" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_line_1a1bafce47da51c1d3b977d35c0bbed2e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+        <definition>GeoPoint * Geometry::GeoLine::getStartPoint</definition>
+        <argsstring>()</argsstring>
+        <name>getStartPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_line_1a1bafce47da51c1d3b977d35c0bbed2e9" kindref="member">getStartPoint(void)</ref> : Get Start Point of Line <simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" line="103" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.cpp" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_line_1af94813b9f5ef1b280317adc954f23f43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> *</type>
+        <definition>GeoPoint * Geometry::GeoLine::getEndPoint</definition>
+        <argsstring>()</argsstring>
+        <name>getEndPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_line_1af94813b9f5ef1b280317adc954f23f43" kindref="member">getEndPoint(void)</ref> : Get End Point of Line <simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" line="110" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.cpp" bodystart="148" bodyend="151"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_line" kindref="compound">Geometry::GeoLine</ref> : <ref refid="namespace_geometry" kindref="compound">Geometry</ref> : Class Described Methods and Attributes of <ref refid="namespace_geometry" kindref="compound">Geometry</ref> Line : LiuLei  on: 2014/12/02 : V1.0.0 </para>    </detaileddescription>
+    <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" line="28" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h" bodystart="27" bodyend="121"/>
+    <listofallmembers>
+      <member refid="class_geometry_1_1_geo_line_1a0203f097bd18ba73bcaeff41ff468420" prot="public" virt="non-virtual"><scope>Geometry::GeoLine</scope><name>GeoLine</name></member>
+      <member refid="class_geometry_1_1_geo_line_1a2fa9b88fe9d44324f15e8b8d15f769a9" prot="public" virt="non-virtual"><scope>Geometry::GeoLine</scope><name>GeoLine</name></member>
+      <member refid="class_geometry_1_1_geo_line_1ad34fe7bd15a905a08a9593b67abdc25c" prot="public" virt="non-virtual"><scope>Geometry::GeoLine</scope><name>GeoLine</name></member>
+      <member refid="class_geometry_1_1_geo_line_1a4ea983b5dfd6a3d2ecf1d07279e0fc3d" prot="public" virt="non-virtual"><scope>Geometry::GeoLine</scope><name>GeoLine</name></member>
+      <member refid="class_geometry_1_1_geo_line_1af94813b9f5ef1b280317adc954f23f43" prot="public" virt="non-virtual"><scope>Geometry::GeoLine</scope><name>getEndPoint</name></member>
+      <member refid="class_geometry_1_1_geo_line_1a1bafce47da51c1d3b977d35c0bbed2e9" prot="public" virt="non-virtual"><scope>Geometry::GeoLine</scope><name>getStartPoint</name></member>
+      <member refid="class_geometry_1_1_geo_line_1a8c6d854bb54b592c5e54bfa45f1b9136" prot="private" virt="non-virtual"><scope>Geometry::GeoLine</scope><name>m_pEndPt</name></member>
+      <member refid="class_geometry_1_1_geo_line_1ae8e86c92a98e7652559176741a4b0fb1" prot="private" virt="non-virtual"><scope>Geometry::GeoLine</scope><name>m_pStartPt</name></member>
+      <member refid="class_geometry_1_1_geo_line_1ab6b720dcb1b1bda68c9a480c7e90e972" prot="public" virt="non-virtual"><scope>Geometry::GeoLine</scope><name>setEndPoint</name></member>
+      <member refid="class_geometry_1_1_geo_line_1aa20821de88980b6d3c83db2e7e992682" prot="public" virt="non-virtual"><scope>Geometry::GeoLine</scope><name>setEndPoint</name></member>
+      <member refid="class_geometry_1_1_geo_line_1a5087cd127a61944da6611a6495eb2c9c" prot="public" virt="non-virtual"><scope>Geometry::GeoLine</scope><name>setStartPoint</name></member>
+      <member refid="class_geometry_1_1_geo_line_1a0eec9e822243f07aa833d7750649877c" prot="public" virt="non-virtual"><scope>Geometry::GeoLine</scope><name>setStartPoint</name></member>
+      <member refid="class_geometry_1_1_geo_line_1a382877221f6aa61eb8161ef9499e4490" prot="public" virt="virtual"><scope>Geometry::GeoLine</scope><name>~GeoLine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

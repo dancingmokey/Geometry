@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_geometry_1_1_geo_point" kind="class" prot="public">
+    <compoundname>Geometry::GeoPoint</compoundname>
+    <includes refid="_geo_point_8h" local="no">GeoPoint.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_geometry_1_1_geo_point_1a3ea8150141a7eb8a8272be6e3ff773eb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Geometry::GeoPoint::m_nX</definition>
+        <argsstring></argsstring>
+        <name>m_nX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: m_nX : int : X Coordinate of Point </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" line="95" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geometry_1_1_geo_point_1aea3069bd20ea2a134220ab4e2650c316" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Geometry::GeoPoint::m_nY</definition>
+        <argsstring></argsstring>
+        <name>m_nY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: m_nY : int : Y Coordinate of Point </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" line="100" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_geometry_1_1_geo_point_1ac156989ab6aace9a1ae0fb744b53a3d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoPoint::GeoPoint</definition>
+        <argsstring>(int nX, int nY)</argsstring>
+        <name>GeoPoint</name>
+        <param>
+          <type>int</type>
+          <declname>nX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_point_1ac156989ab6aace9a1ae0fb744b53a3d2" kindref="member">GeoPoint(int nX, int nY)</ref> : Custom Constructor Function <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : X coordinate of Point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Y coordinate of Point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" line="33" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.cpp" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_point_1ae1d10f4d306b9373c58a7b201917cb38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoPoint::GeoPoint</definition>
+        <argsstring>(GeoPoint &amp;vGeoPoint)</argsstring>
+        <name>GeoPoint</name>
+        <param>
+          <type><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> &amp;</type>
+          <declname>vGeoPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_point_1ae1d10f4d306b9373c58a7b201917cb38" kindref="member">GeoPoint(GeoPoint&amp; vGeoPoint)</ref> : Overriding Copy Constructor Function <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vGeoPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: <ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>&amp; : <ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref> Object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" line="40" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.cpp" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_point_1ac2ee617302013ef00cf74971ee7ea078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geometry::GeoPoint::GeoPoint</definition>
+        <argsstring>(void)</argsstring>
+        <name>GeoPoint</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_point_1ac2ee617302013ef00cf74971ee7ea078" kindref="member">GeoPoint(void)</ref> : Default Constructor Function</para><para>: <ref refid="class_geometry_1_1_geo_point_1ac2ee617302013ef00cf74971ee7ea078" kindref="member">GeoPoint()</ref> : Default Constructor Function </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" line="46" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.cpp" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_point_1a72a292d8d16267996f8a4d260cb5c493" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Geometry::GeoPoint::~GeoPoint</definition>
+        <argsstring>(void)</argsstring>
+        <name>~GeoPoint</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_point_1a72a292d8d16267996f8a4d260cb5c493" kindref="member">~GeoPoint(void)</ref> : Default Destructor Function</para><para>: <ref refid="class_geometry_1_1_geo_point_1a72a292d8d16267996f8a4d260cb5c493" kindref="member">~GeoPoint()</ref> : Default Destructor Function </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" line="52" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.cpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_point_1a58dd152acc86d6f7207cec462cdb8c7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoPoint::setPoint</definition>
+        <argsstring>(int nX, int nY)</argsstring>
+        <name>setPoint</name>
+        <param>
+          <type>int</type>
+          <declname>nX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_point_1a58dd152acc86d6f7207cec462cdb8c7a" kindref="member">setPoint(int nX, int nY)</ref> : Set Point Value via X&amp;Y coordinates <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : X coordinate of Point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Y coordinate of Point</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+: <ref refid="class_geometry_1_1_geo_point_1a58dd152acc86d6f7207cec462cdb8c7a" kindref="member">setPoint(int nX, int nY)</ref> : Set Point Value via X&amp;Y coordinates <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : X coordinate of Point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Y coordinate of Point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" line="61" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.cpp" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_point_1a35e2cab4f70bbce8d0575b08f1e70771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoPoint::setX</definition>
+        <argsstring>(int nX)</argsstring>
+        <name>setX</name>
+        <param>
+          <type>int</type>
+          <declname>nX</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_point_1a35e2cab4f70bbce8d0575b08f1e70771" kindref="member">setX(int nX)</ref> : Set X coordinates of Point <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : X coordinate of Point</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+: <ref refid="class_geometry_1_1_geo_point_1a35e2cab4f70bbce8d0575b08f1e70771" kindref="member">setX(int nX)</ref> : Set X coordinates of Point <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : X coordinate of Point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" line="68" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.cpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_point_1a6f19ed67ab52f628a4c6639e8f30a7d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geometry::GeoPoint::setY</definition>
+        <argsstring>(int nY)</argsstring>
+        <name>setY</name>
+        <param>
+          <type>int</type>
+          <declname>nY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_point_1a6f19ed67ab52f628a4c6639e8f30a7d7" kindref="member">setY(int nY)</ref> : Set Y coordinates of Point <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Y coordinate of Point</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+: <ref refid="class_geometry_1_1_geo_point_1a6f19ed67ab52f628a4c6639e8f30a7d7" kindref="member">setY(int nY)</ref> : Set Y coordinates of Point <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int : Y coordinate of Point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" line="75" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.cpp" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_point_1a20dbdd7a551e1d2ea42607b453855ca3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Geometry::GeoPoint::getX</definition>
+        <argsstring>(void) const </argsstring>
+        <name>getX</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: getX(void) : Get X coordinates of Point <simplesect kind="return"><para>int</para></simplesect>
+: <ref refid="class_geometry_1_1_geo_point_1a20dbdd7a551e1d2ea42607b453855ca3" kindref="member">getX()</ref> : Get X coordinates of Point <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+<para>return int </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" line="82" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.cpp" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_1_1_geo_point_1aacdb8ed6b6efd50a57277779bac8c0ae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Geometry::GeoPoint::getY</definition>
+        <argsstring>(void) const </argsstring>
+        <name>getY</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>: getY(void) : Get Y coordinates of Point <simplesect kind="return"><para>int</para></simplesect>
+: <ref refid="class_geometry_1_1_geo_point_1aacdb8ed6b6efd50a57277779bac8c0ae" kindref="member">getY()</ref> : Get Y coordinates of Point <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+<para>return int </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" line="89" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.cpp" bodystart="111" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>: <ref refid="class_geometry_1_1_geo_point" kindref="compound">Geometry::GeoPoint</ref> : <ref refid="namespace_geometry" kindref="compound">Geometry</ref> : Class Described Methods and Attributes of <ref refid="namespace_geometry" kindref="compound">Geometry</ref> Point : LiuLei  on: 2014/12/02 : V1.0.0 </para>    </detaileddescription>
+    <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" line="25" column="1" bodyfile="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h" bodystart="24" bodyend="101"/>
+    <listofallmembers>
+      <member refid="class_geometry_1_1_geo_point_1ac156989ab6aace9a1ae0fb744b53a3d2" prot="public" virt="non-virtual"><scope>Geometry::GeoPoint</scope><name>GeoPoint</name></member>
+      <member refid="class_geometry_1_1_geo_point_1ae1d10f4d306b9373c58a7b201917cb38" prot="public" virt="non-virtual"><scope>Geometry::GeoPoint</scope><name>GeoPoint</name></member>
+      <member refid="class_geometry_1_1_geo_point_1ac2ee617302013ef00cf74971ee7ea078" prot="public" virt="non-virtual"><scope>Geometry::GeoPoint</scope><name>GeoPoint</name></member>
+      <member refid="class_geometry_1_1_geo_point_1a20dbdd7a551e1d2ea42607b453855ca3" prot="public" virt="non-virtual"><scope>Geometry::GeoPoint</scope><name>getX</name></member>
+      <member refid="class_geometry_1_1_geo_point_1aacdb8ed6b6efd50a57277779bac8c0ae" prot="public" virt="non-virtual"><scope>Geometry::GeoPoint</scope><name>getY</name></member>
+      <member refid="class_geometry_1_1_geo_point_1a3ea8150141a7eb8a8272be6e3ff773eb" prot="private" virt="non-virtual"><scope>Geometry::GeoPoint</scope><name>m_nX</name></member>
+      <member refid="class_geometry_1_1_geo_point_1aea3069bd20ea2a134220ab4e2650c316" prot="private" virt="non-virtual"><scope>Geometry::GeoPoint</scope><name>m_nY</name></member>
+      <member refid="class_geometry_1_1_geo_point_1a58dd152acc86d6f7207cec462cdb8c7a" prot="public" virt="non-virtual"><scope>Geometry::GeoPoint</scope><name>setPoint</name></member>
+      <member refid="class_geometry_1_1_geo_point_1a35e2cab4f70bbce8d0575b08f1e70771" prot="public" virt="non-virtual"><scope>Geometry::GeoPoint</scope><name>setX</name></member>
+      <member refid="class_geometry_1_1_geo_point_1a6f19ed67ab52f628a4c6639e8f30a7d7" prot="public" virt="non-virtual"><scope>Geometry::GeoPoint</scope><name>setY</name></member>
+      <member refid="class_geometry_1_1_geo_point_1a72a292d8d16267996f8a4d260cb5c493" prot="public" virt="virtual"><scope>Geometry::GeoPoint</scope><name>~GeoPoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

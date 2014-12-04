@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.8">
+  <compound refid="class_geometry_1_1_geo_line" kind="class"><name>Geometry::GeoLine</name>
+    <member refid="class_geometry_1_1_geo_line_1ae8e86c92a98e7652559176741a4b0fb1" kind="variable"><name>m_pStartPt</name></member>
+    <member refid="class_geometry_1_1_geo_line_1a8c6d854bb54b592c5e54bfa45f1b9136" kind="variable"><name>m_pEndPt</name></member>
+    <member refid="class_geometry_1_1_geo_line_1a0203f097bd18ba73bcaeff41ff468420" kind="function"><name>GeoLine</name></member>
+    <member refid="class_geometry_1_1_geo_line_1a2fa9b88fe9d44324f15e8b8d15f769a9" kind="function"><name>GeoLine</name></member>
+    <member refid="class_geometry_1_1_geo_line_1ad34fe7bd15a905a08a9593b67abdc25c" kind="function"><name>GeoLine</name></member>
+    <member refid="class_geometry_1_1_geo_line_1a4ea983b5dfd6a3d2ecf1d07279e0fc3d" kind="function"><name>GeoLine</name></member>
+    <member refid="class_geometry_1_1_geo_line_1a382877221f6aa61eb8161ef9499e4490" kind="function"><name>~GeoLine</name></member>
+    <member refid="class_geometry_1_1_geo_line_1a5087cd127a61944da6611a6495eb2c9c" kind="function"><name>setStartPoint</name></member>
+    <member refid="class_geometry_1_1_geo_line_1a0eec9e822243f07aa833d7750649877c" kind="function"><name>setStartPoint</name></member>
+    <member refid="class_geometry_1_1_geo_line_1ab6b720dcb1b1bda68c9a480c7e90e972" kind="function"><name>setEndPoint</name></member>
+    <member refid="class_geometry_1_1_geo_line_1aa20821de88980b6d3c83db2e7e992682" kind="function"><name>setEndPoint</name></member>
+    <member refid="class_geometry_1_1_geo_line_1a1bafce47da51c1d3b977d35c0bbed2e9" kind="function"><name>getStartPoint</name></member>
+    <member refid="class_geometry_1_1_geo_line_1af94813b9f5ef1b280317adc954f23f43" kind="function"><name>getEndPoint</name></member>
+  </compound>
+  <compound refid="class_geometry_1_1_geo_point" kind="class"><name>Geometry::GeoPoint</name>
+    <member refid="class_geometry_1_1_geo_point_1a3ea8150141a7eb8a8272be6e3ff773eb" kind="variable"><name>m_nX</name></member>
+    <member refid="class_geometry_1_1_geo_point_1aea3069bd20ea2a134220ab4e2650c316" kind="variable"><name>m_nY</name></member>
+    <member refid="class_geometry_1_1_geo_point_1ac156989ab6aace9a1ae0fb744b53a3d2" kind="function"><name>GeoPoint</name></member>
+    <member refid="class_geometry_1_1_geo_point_1ae1d10f4d306b9373c58a7b201917cb38" kind="function"><name>GeoPoint</name></member>
+    <member refid="class_geometry_1_1_geo_point_1ac2ee617302013ef00cf74971ee7ea078" kind="function"><name>GeoPoint</name></member>
+    <member refid="class_geometry_1_1_geo_point_1a72a292d8d16267996f8a4d260cb5c493" kind="function"><name>~GeoPoint</name></member>
+    <member refid="class_geometry_1_1_geo_point_1a58dd152acc86d6f7207cec462cdb8c7a" kind="function"><name>setPoint</name></member>
+    <member refid="class_geometry_1_1_geo_point_1a35e2cab4f70bbce8d0575b08f1e70771" kind="function"><name>setX</name></member>
+    <member refid="class_geometry_1_1_geo_point_1a6f19ed67ab52f628a4c6639e8f30a7d7" kind="function"><name>setY</name></member>
+    <member refid="class_geometry_1_1_geo_point_1a20dbdd7a551e1d2ea42607b453855ca3" kind="function"><name>getX</name></member>
+    <member refid="class_geometry_1_1_geo_point_1aacdb8ed6b6efd50a57277779bac8c0ae" kind="function"><name>getY</name></member>
+  </compound>
+  <compound refid="class_geometry_1_1_geo_rect" kind="class"><name>Geometry::GeoRect</name>
+    <member refid="class_geometry_1_1_geo_rect_1a17b314eb1b1b2f44529756c6181cd77d" kind="variable"><name>m_pTopLeftPt</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1af3d7091a4f44b1e907847ef5adbe345e" kind="variable"><name>m_pBottomRightPt</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1ab58f66576e1489651d10ae9a7bda38fb" kind="variable"><name>m_pSize</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1a9820f510a951315831b4c385b4dd5f7f" kind="function"><name>GeoRect</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1ad6e348652bc62dc5198b7ac26aa2d177" kind="function"><name>GeoRect</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1ad26a503538fd77191ba71ad884a4b46e" kind="function"><name>GeoRect</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1a3cc5173f88ded3b105e1c7ea7d551cd4" kind="function"><name>GeoRect</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1a3c0d278b693d72e695a01150492d11bb" kind="function"><name>GeoRect</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1aef8f44244cf2ace1846e9406d22ed290" kind="function"><name>~GeoRect</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1a31afdf267816f65dbad8633ff1298394" kind="function"><name>getSize</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1a4043826e979ef681f21318c5aa5a975e" kind="function"><name>setSize</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1a51b0a80ba81aaad8092488d02d3dfde5" kind="function"><name>setSize</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1a27ca9d13cceb4bfee56a2294e2b7fe6d" kind="function"><name>setTopLeftPoint</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1abf2a90d888fe3faa615f2b3de072d5ad" kind="function"><name>setTopLeftPoint</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1a091e050fde11c418273fbf3281f5846c" kind="function"><name>setBottomRightPoint</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1a1e6d0857c47d94b050c9540cfdc9e55f" kind="function"><name>setBottomRightPoint</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1ae7bad7c3d14dcebc703b017d9e65db5d" kind="function"><name>getTopLeftPoint</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1a2381bf993ba8606df7e4166d006161dc" kind="function"><name>getBottomRightPoint</name></member>
+    <member refid="class_geometry_1_1_geo_rect_1ac050f36853c4f0b7b9451c45e762efcb" kind="function"><name>ReCalcRectParam</name></member>
+  </compound>
+  <compound refid="class_geometry_1_1_geo_size" kind="class"><name>Geometry::GeoSize</name>
+    <member refid="class_geometry_1_1_geo_size_1aba593969549ae780bd9dc365c33dc476" kind="variable"><name>m_nWidth</name></member>
+    <member refid="class_geometry_1_1_geo_size_1acec95d673d55844cc41e677c2f082649" kind="variable"><name>m_nHeight</name></member>
+    <member refid="class_geometry_1_1_geo_size_1a49ff629e779cf2915f2ab6db76fdbd88" kind="function"><name>GeoSize</name></member>
+    <member refid="class_geometry_1_1_geo_size_1a1c3e2135dc690464ee971fbb46580d1a" kind="function"><name>GeoSize</name></member>
+    <member refid="class_geometry_1_1_geo_size_1aa16a3b5494af1e8cf70cf4fd8aba8671" kind="function"><name>GeoSize</name></member>
+    <member refid="class_geometry_1_1_geo_size_1a679d627f4055584b54d62db8d0fd27e6" kind="function"><name>~GeoSize</name></member>
+    <member refid="class_geometry_1_1_geo_size_1aec253e3e476eb610ed158edfa73dad6c" kind="function"><name>setSize</name></member>
+    <member refid="class_geometry_1_1_geo_size_1ade8cf6cde2437dfc613fa195381d0b80" kind="function"><name>setHeight</name></member>
+    <member refid="class_geometry_1_1_geo_size_1ad58e522fe929007d04db32e7b6b255a2" kind="function"><name>setWidth</name></member>
+    <member refid="class_geometry_1_1_geo_size_1a83b38c90839aea314d1bac712ea55ad0" kind="function"><name>getHeight</name></member>
+    <member refid="class_geometry_1_1_geo_size_1a95124017274175ba8971dedb4d8255a6" kind="function"><name>getWidth</name></member>
+  </compound>
+  <compound refid="namespace_geometry" kind="namespace"><name>Geometry</name>
+  </compound>
+  <compound refid="_geo_line_8cpp" kind="file"><name>GeoLine.cpp</name>
+  </compound>
+  <compound refid="_geo_line_8h" kind="file"><name>GeoLine.h</name>
+  </compound>
+  <compound refid="_geo_point_8cpp" kind="file"><name>GeoPoint.cpp</name>
+  </compound>
+  <compound refid="_geo_point_8h" kind="file"><name>GeoPoint.h</name>
+  </compound>
+  <compound refid="_geo_rect_8cpp" kind="file"><name>GeoRect.cpp</name>
+  </compound>
+  <compound refid="_geo_rect_8h" kind="file"><name>GeoRect.h</name>
+  </compound>
+  <compound refid="_geo_size_8cpp" kind="file"><name>GeoSize.cpp</name>
+  </compound>
+  <compound refid="_geo_size_8h" kind="file"><name>GeoSize.h</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>C:/Users/雷/Documents/Eclipse/Projects/Geometry/src</name>
+  </compound>
+</doxygenindex>

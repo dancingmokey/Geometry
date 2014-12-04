@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="_geo_rect_8cpp" kind="file">
+    <compoundname>GeoRect.cpp</compoundname>
+    <includes refid="_geo_rect_8h" local="yes">GeoRect.h</includes>
+    <incdepgraph>
+      <node id="18">
+        <label>stdlib.h</label>
+      </node>
+      <node id="20">
+        <label>GeoSize.h</label>
+        <link refid="_geo_size_8h_source"/>
+      </node>
+      <node id="19">
+        <label>GeoPoint.h</label>
+        <link refid="_geo_point_8h_source"/>
+      </node>
+      <node id="16">
+        <label>C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp</label>
+        <link refid="GeoRect.cpp"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>GeoRect.h</label>
+        <link refid="_geo_rect_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_geometry">Geometry</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#include<sp/>&quot;GeoRect.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_geometry" kindref="compound">Geometry</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><ref refid="class_geometry_1_1_geo_rect_1a3c0d278b693d72e695a01150492d11bb" kindref="member">GeoRect::GeoRect</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nX1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nY1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nWidth,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nHeight)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pTopLeftPt<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GeoPoint(nX1,<sp/>nY1);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pBottomRightPt<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GeoPoint(nX1<sp/>+<sp/>nWidth,<sp/>nY1<sp/>+<sp/>nHeight);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pSize<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GeoSize(nWidth,<sp/>nHeight);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><ref refid="class_geometry_1_1_geo_rect_1a3c0d278b693d72e695a01150492d11bb" kindref="member">GeoRect::GeoRect</ref>(GeoPoint*<sp/>pTopLeftPt,<sp/>GeoPoint*<sp/>pBottomRightPt)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pTopLeftPt<sp/>=<sp/>pTopLeftPt;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pBottomRightPt<sp/>=<sp/>pBottomRightPt;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pSize<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GeoSize(</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pBottomRightPt-&gt;getX()<sp/>-<sp/>pTopLeftPt-&gt;getX(),</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pBottomRightPt-&gt;getX()<sp/>-<sp/>pTopLeftPt-&gt;getY());</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><ref refid="class_geometry_1_1_geo_rect_1a3c0d278b693d72e695a01150492d11bb" kindref="member">GeoRect::GeoRect</ref>(GeoPoint*<sp/>pTopLeftPt,<sp/>GeoSize*<sp/>pSize)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pTopLeftPt<sp/>=<sp/>pTopLeftPt;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pBottomRightPt<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GeoPoint(</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pTopLeftPt-&gt;getX()<sp/>+<sp/>pSize-&gt;getWidth(),</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pTopLeftPt-&gt;getY()<sp/>+<sp/>pSize-&gt;getHeight());</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pSize<sp/>=<sp/>pSize;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><ref refid="class_geometry_1_1_geo_rect_1a3c0d278b693d72e695a01150492d11bb" kindref="member">GeoRect::GeoRect</ref>(GeoRect&amp;<sp/>vGeoRect)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pTopLeftPt<sp/>=<sp/>vGeoRect.getTopLeftPoint();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pBottomRightPt<sp/>=<sp/>vGeoRect.getBottomRightPoint();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pSize<sp/>=<sp/>vGeoRect.getSize();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><ref refid="class_geometry_1_1_geo_rect_1a3c0d278b693d72e695a01150492d11bb" kindref="member">GeoRect::GeoRect</ref>()</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>constructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pTopLeftPt<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GeoPoint();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pBottomRightPt<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GeoPoint();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pSize<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GeoSize();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><ref refid="class_geometry_1_1_geo_rect_1aef8f44244cf2ace1846e9406d22ed290" kindref="member">GeoRect::~GeoRect</ref>()</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m_pTopLeftPt<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>m_pTopLeftPt;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pTopLeftPt<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m_pBottomRightPt<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>m_pBottomRightPt;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pBottomRightPt<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m_pSize<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>m_pSize;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pSize<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">GeoSize*<sp/><ref refid="class_geometry_1_1_geo_rect_1a31afdf267816f65dbad8633ff1298394" kindref="member">GeoRect::getSize</ref>()</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_pSize;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1a4043826e979ef681f21318c5aa5a975e" kindref="member">GeoRect::setSize</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nWidth,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nHeight)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pSize-&gt;<ref refid="class_geometry_1_1_geo_size_1ad58e522fe929007d04db32e7b6b255a2" kindref="member">setWidth</ref>(nWidth);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pSize-&gt;<ref refid="class_geometry_1_1_geo_size_1ade8cf6cde2437dfc613fa195381d0b80" kindref="member">setHeight</ref>(nHeight);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_rect_1ac050f36853c4f0b7b9451c45e762efcb" kindref="member">ReCalcRectParam</ref>(0x02);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1a4043826e979ef681f21318c5aa5a975e" kindref="member">GeoRect::setSize</ref>(GeoSize*<sp/>size)</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pSize<sp/>=<sp/>size;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_rect_1ac050f36853c4f0b7b9451c45e762efcb" kindref="member">ReCalcRectParam</ref>(0x02);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1a27ca9d13cceb4bfee56a2294e2b7fe6d" kindref="member">GeoRect::setTopLeftPoint</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nX,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nY)</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pTopLeftPt-&gt;<ref refid="class_geometry_1_1_geo_point_1a35e2cab4f70bbce8d0575b08f1e70771" kindref="member">setX</ref>(nX);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pTopLeftPt-&gt;<ref refid="class_geometry_1_1_geo_point_1a6f19ed67ab52f628a4c6639e8f30a7d7" kindref="member">setY</ref>(nY);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_rect_1ac050f36853c4f0b7b9451c45e762efcb" kindref="member">ReCalcRectParam</ref>(0x01);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1a27ca9d13cceb4bfee56a2294e2b7fe6d" kindref="member">GeoRect::setTopLeftPoint</ref>(GeoPoint*<sp/>pTopLeftPt)</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pTopLeftPt<sp/>=<sp/>pTopLeftPt;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_rect_1ac050f36853c4f0b7b9451c45e762efcb" kindref="member">ReCalcRectParam</ref>(0x01);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1a091e050fde11c418273fbf3281f5846c" kindref="member">GeoRect::setBottomRightPoint</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nX,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nY)</highlight></codeline>
+<codeline lineno="194"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pBottomRightPt-&gt;<ref refid="class_geometry_1_1_geo_point_1a35e2cab4f70bbce8d0575b08f1e70771" kindref="member">setX</ref>(nX);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pBottomRightPt-&gt;<ref refid="class_geometry_1_1_geo_point_1a6f19ed67ab52f628a4c6639e8f30a7d7" kindref="member">setY</ref>(nY);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_rect_1ac050f36853c4f0b7b9451c45e762efcb" kindref="member">ReCalcRectParam</ref>(0x01);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1a091e050fde11c418273fbf3281f5846c" kindref="member">GeoRect::setBottomRightPoint</ref>(GeoPoint*<sp/>pBottomRightPt)</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pBottomRightPt<sp/>=<sp/>pBottomRightPt;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_rect_1ac050f36853c4f0b7b9451c45e762efcb" kindref="member">ReCalcRectParam</ref>(0x01);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal">GeoPoint*<sp/><ref refid="class_geometry_1_1_geo_rect_1ae7bad7c3d14dcebc703b017d9e65db5d" kindref="member">GeoRect::getTopLeftPoint</ref>()</highlight></codeline>
+<codeline lineno="223"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_pTopLeftPt;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal">GeoPoint*<sp/><ref refid="class_geometry_1_1_geo_rect_1a2381bf993ba8606df7e4166d006161dc" kindref="member">GeoRect::getBottomRightPoint</ref>()</highlight></codeline>
+<codeline lineno="233"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_pBottomRightPt;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1ac050f36853c4f0b7b9451c45e762efcb" kindref="member">GeoRect::ReCalcRectParam</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>nBased)</highlight></codeline>
+<codeline lineno="242"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((nBased<sp/>==<sp/>0x01)<sp/>||</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(nBased<sp/>==<sp/>0x02))</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pSize<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GeoSize(</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pBottomRightPt-&gt;<ref refid="class_geometry_1_1_geo_point_1a20dbdd7a551e1d2ea42607b453855ca3" kindref="member">getX</ref>()<sp/>-<sp/>m_pTopLeftPt-&gt;<ref refid="class_geometry_1_1_geo_point_1a20dbdd7a551e1d2ea42607b453855ca3" kindref="member">getX</ref>(),</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pBottomRightPt-&gt;<ref refid="class_geometry_1_1_geo_point_1a20dbdd7a551e1d2ea42607b453855ca3" kindref="member">getX</ref>()<sp/>-<sp/>m_pTopLeftPt-&gt;<ref refid="class_geometry_1_1_geo_point_1aacdb8ed6b6efd50a57277779bac8c0ae" kindref="member">getY</ref>());</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(nBased<sp/>==<sp/>0x03)</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pBottomRightPt<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GeoPoint(</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pTopLeftPt-&gt;<ref refid="class_geometry_1_1_geo_point_1a20dbdd7a551e1d2ea42607b453855ca3" kindref="member">getX</ref>()<sp/>+<sp/>m_pSize-&gt;<ref refid="class_geometry_1_1_geo_size_1a95124017274175ba8971dedb4d8255a6" kindref="member">getWidth</ref>(),</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pTopLeftPt-&gt;<ref refid="class_geometry_1_1_geo_point_1aacdb8ed6b6efd50a57277779bac8c0ae" kindref="member">getY</ref>()<sp/>+<sp/>m_pSize-&gt;<ref refid="class_geometry_1_1_geo_size_1a83b38c90839aea314d1bac712ea55ad0" kindref="member">getHeight</ref>());</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="261"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>Geometry<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp"/>
+  </compounddef>
+</doxygen>

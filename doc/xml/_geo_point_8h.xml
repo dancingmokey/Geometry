@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="_geo_point_8h" kind="file">
+    <compoundname>GeoPoint.h</compoundname>
+    <includedby refid="_geo_line_8h" local="yes">C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h</includedby>
+    <includedby refid="_geo_point_8cpp" local="yes">C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.cpp</includedby>
+    <includedby refid="_geo_rect_8h" local="yes">C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h</includedby>
+    <invincdepgraph>
+      <node id="14">
+        <label>C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoLine.h</label>
+        <link refid="_geo_line_8h_source"/>
+      </node>
+      <node id="13">
+        <label>C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h</label>
+        <link refid="GeoPoint.h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h</label>
+        <link refid="_geo_rect_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_geometry_1_1_geo_point" prot="public">Geometry::GeoPoint</innerclass>
+    <innernamespace refid="namespace_geometry">Geometry</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#ifndef<sp/>GEOPOINT_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEOPOINT_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_geometry" kindref="compound">Geometry</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_geometry_1_1_geo_point" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_point_1ac2ee617302013ef00cf74971ee7ea078" kindref="member">GeoPoint</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nX,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nY);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_point_1ac2ee617302013ef00cf74971ee7ea078" kindref="member">GeoPoint</ref>(<ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>&amp;<sp/>vGeoPoint);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_point_1ac2ee617302013ef00cf74971ee7ea078" kindref="member">GeoPoint</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_point_1a72a292d8d16267996f8a4d260cb5c493" kindref="member">~GeoPoint</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_point_1a58dd152acc86d6f7207cec462cdb8c7a" kindref="member">setPoint</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nX,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nY);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_point_1a35e2cab4f70bbce8d0575b08f1e70771" kindref="member">setX</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nX);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_point_1a6f19ed67ab52f628a4c6639e8f30a7d7" kindref="member">setY</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nY);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_point_1a20dbdd7a551e1d2ea42607b453855ca3" kindref="member">getX</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_point_1aacdb8ed6b6efd50a57277779bac8c0ae" kindref="member">getY</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_nX;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_nY;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>Geometry<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>GEOPOINT_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoPoint.h"/>
+  </compounddef>
+</doxygen>

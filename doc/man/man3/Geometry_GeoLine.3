@@ -1,0 +1,157 @@
+.TH "Geometry::GeoLine" 3 "Thu Dec 4 2014" "Version Version 1.0.0" "Geometry" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Geometry::GeoLine \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <GeoLine\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGeoLine\fP (int nX1, int nY1, int nX2, int nY2)"
+.br
+.ti -1c
+.RI "\fBGeoLine\fP (\fBGeoPoint\fP *pStartPt, \fBGeoPoint\fP *pEndPt)"
+.br
+.ti -1c
+.RI "\fBGeoLine\fP (\fBGeoLine\fP &vLine)"
+.br
+.ti -1c
+.RI "\fBGeoLine\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~GeoLine\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetStartPoint\fP (int nX, int nY)"
+.br
+.ti -1c
+.RI "void \fBsetStartPoint\fP (\fBGeoPoint\fP *pStartPt)"
+.br
+.ti -1c
+.RI "void \fBsetEndPoint\fP (int nX, int nY)"
+.br
+.ti -1c
+.RI "void \fBsetEndPoint\fP (\fBGeoPoint\fP *pEndPt)"
+.br
+.ti -1c
+.RI "\fBGeoPoint\fP * \fBgetStartPoint\fP ()"
+.br
+.ti -1c
+.RI "\fBGeoPoint\fP * \fBgetEndPoint\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+: \fBGeometry::GeoLine\fP : \fBGeometry\fP : Class Described Methods and Attributes of \fBGeometry\fP Line : LiuLei  on: 2014/12/02 : V1\&.0\&.0 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Geometry::GeoLine::GeoLine (intnX1, intnY1, intnX2, intnY2)"
+: \fBGeoLine(int nX1, int nY1, int nX2, int nY2)\fP : Custom Constructor Function 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInX1\fP : int : X Coordinate of Start Point in Line 
+.br
+\fInY1\fP : int : Y Coordinate of Start Point in Line 
+.br
+\fInX2\fP : int : X Coordinate of End Point in Line 
+.br
+\fInY2\fP : int : Y Coordinate of End Point in Line 
+.RE
+.PP
+
+.SS "Geometry::GeoLine::GeoLine (\fBGeoPoint\fP *pStartPt, \fBGeoPoint\fP *pEndPt)"
+: \fBGeoLine(GeoPoint* pStartPt, GeoPoint* pEndPt)\fP : Custom Constructor Function 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpStartPt\fP : GeoPoint* : Start Point in Line 
+.br
+\fIpEndPt\fP : GeoPoint* : End Point in Line 
+.RE
+.PP
+
+.SS "Geometry::GeoLine::GeoLine (\fBGeoLine\fP &vLine)"
+: GeoSize(GeoSize& vSize) : Overriding Copy Constructor Function 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvLine\fP : \fBGeoLine\fP& : \fBGeoLine\fP Object 
+.RE
+.PP
+
+.SS "Geometry::GeoLine::GeoLine ()"
+: \fBGeoLine(void)\fP : Default Constructor Function 
+.SS "Geometry::GeoLine::~GeoLine ()\fC [virtual]\fP"
+: \fB~GeoLine(void)\fP : Default Destructor Function Release Pointer
+.PP
+Release Pointer 
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBGeoPoint\fP * Geometry::GeoLine::getEndPoint ()"
+: \fBgetEndPoint(void)\fP : Get End Point of Line 
+.PP
+\fBReturns:\fP
+.RS 4
+int 
+.RE
+.PP
+
+.SS "\fBGeoPoint\fP * Geometry::GeoLine::getStartPoint ()"
+: \fBgetStartPoint(void)\fP : Get Start Point of Line 
+.PP
+\fBReturns:\fP
+.RS 4
+int 
+.RE
+.PP
+
+.SS "void Geometry::GeoLine::setEndPoint (intnX, intnY)"
+: \fBsetEndPoint(int nX, int nY)\fP : Set End Point of Line via X&Y corrdinate 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInX\fP : int : X corrdinate of the End Point in Line 
+.br
+\fInY\fP : int : Y corrdinate of the End Point in Line 
+.RE
+.PP
+
+.SS "void Geometry::GeoLine::setEndPoint (\fBGeoPoint\fP *pEndPt)"
+: \fBsetEndPoint(GeoPoint* pStartPt)\fP : Set End Point of Line via \fBGeoPoint\fP Object 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpStartPt\fP : GeoPoint* : \fBGeoPoint\fP Object 
+.RE
+.PP
+
+.SS "void Geometry::GeoLine::setStartPoint (intnX, intnY)"
+: \fBsetStartPoint(int nX, int nY)\fP : Set Start Point of Line via X&Y corrdinate 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInX\fP : int : X corrdinate of the Start Point in Line 
+.br
+\fInY\fP : int : Y corrdinate of the Start Point in Line 
+.RE
+.PP
+
+.SS "void Geometry::GeoLine::setStartPoint (\fBGeoPoint\fP *pStartPt)"
+: \fBsetStartPoint(GeoPoint* pStartPt)\fP : Set Start Point of Line via \fBGeoPoint\fP Object 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpStartPt\fP : GeoPoint* : \fBGeoPoint\fP Object 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Geometry from the source code\&.

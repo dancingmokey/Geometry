@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="_geo_rect_8h" kind="file">
+    <compoundname>GeoRect.h</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes refid="_geo_point_8h" local="yes">GeoPoint.h</includes>
+    <includes refid="_geo_size_8h" local="yes">GeoSize.h</includes>
+    <includedby refid="_geo_rect_8cpp" local="yes">C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.cpp</includedby>
+    <incdepgraph>
+      <node id="23">
+        <label>stdlib.h</label>
+      </node>
+      <node id="25">
+        <label>GeoSize.h</label>
+        <link refid="_geo_size_8h_source"/>
+      </node>
+      <node id="24">
+        <label>GeoPoint.h</label>
+        <link refid="_geo_point_8h_source"/>
+      </node>
+      <node id="22">
+        <label>C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h</label>
+        <link refid="GeoRect.h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_geometry_1_1_geo_rect" prot="public">Geometry::GeoRect</innerclass>
+    <innernamespace refid="namespace_geometry">Geometry</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#ifndef<sp/>GEORECT_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEORECT_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GeoPoint.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GeoSize.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_geometry" kindref="compound">Geometry</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_geometry_1_1_geo_rect" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_geometry_1_1_geo_rect" kindref="compound">GeoRect</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_rect_1a3c0d278b693d72e695a01150492d11bb" kindref="member">GeoRect</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nX1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nY1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nWidth,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nHeight);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_rect_1a3c0d278b693d72e695a01150492d11bb" kindref="member">GeoRect</ref>(<ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/>pTopLeftPt,<sp/><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/>pBottomRightPt);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_rect_1a3c0d278b693d72e695a01150492d11bb" kindref="member">GeoRect</ref>(<ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/>pTopLeftPt,<sp/><ref refid="class_geometry_1_1_geo_size" kindref="compound">GeoSize</ref>*<sp/>pSize);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_rect_1a3c0d278b693d72e695a01150492d11bb" kindref="member">GeoRect</ref>(<ref refid="class_geometry_1_1_geo_rect" kindref="compound">GeoRect</ref>&amp;<sp/>vGeoRect);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_rect_1a3c0d278b693d72e695a01150492d11bb" kindref="member">GeoRect</ref>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1aef8f44244cf2ace1846e9406d22ed290" kindref="member">~GeoRect</ref>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_size" kindref="compound">GeoSize</ref>*<sp/><ref refid="class_geometry_1_1_geo_rect_1a31afdf267816f65dbad8633ff1298394" kindref="member">getSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1a4043826e979ef681f21318c5aa5a975e" kindref="member">setSize</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nWidth,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nHeight);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1a4043826e979ef681f21318c5aa5a975e" kindref="member">setSize</ref>(<ref refid="class_geometry_1_1_geo_size" kindref="compound">GeoSize</ref>*<sp/>pSize);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1a27ca9d13cceb4bfee56a2294e2b7fe6d" kindref="member">setTopLeftPoint</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nX,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nY);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1a27ca9d13cceb4bfee56a2294e2b7fe6d" kindref="member">setTopLeftPoint</ref>(<ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/>pTopLeftPt);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1a091e050fde11c418273fbf3281f5846c" kindref="member">setBottomRightPoint</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nX,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nY);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1a091e050fde11c418273fbf3281f5846c" kindref="member">setBottomRightPoint</ref>(<ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/>pBottomRighPt);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/><ref refid="class_geometry_1_1_geo_rect_1ae7bad7c3d14dcebc703b017d9e65db5d" kindref="member">getTopLeftPoint</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/><ref refid="class_geometry_1_1_geo_rect_1a2381bf993ba8606df7e4166d006161dc" kindref="member">getBottomRightPoint</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_geometry_1_1_geo_rect_1ac050f36853c4f0b7b9451c45e762efcb" kindref="member">ReCalcRectParam</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>nBased);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/>m_pTopLeftPt;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_point" kindref="compound">GeoPoint</ref>*<sp/>m_pBottomRightPt;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geometry_1_1_geo_size" kindref="compound">GeoSize</ref>*<sp/>m_pSize;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>Geometry<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>GEORECT_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/雷/Documents/Eclipse/Projects/Geometry/src/GeoRect.h"/>
+  </compounddef>
+</doxygen>
