@@ -4,13 +4,16 @@
  * @Description: 	Define Class Geometry::GeoLine
  * @Author: 		LiuLei
  * @Created on: 	2014/12/02
- * @Version:		V1.0.0	
+ * @Version:		V1.0.1
+ * @Modified on: 	2014/12/05
+ * @Note:			Add Attribute Length
  */
 
 #ifndef GEOLINE_H_
 #define GEOLINE_H_
 
 #include <stdlib.h>
+#include <math.h>
 #include "GeoPoint.h"
 
 namespace Geometry
@@ -66,6 +69,12 @@ public:
 
 public:
 	/**
+	 * @FuncName: setLength(void)
+	 * @Description: Calculate Length of Line
+	 */
+	void ResetLength(void);
+
+	/**
 	 * @FuncName: setStartPoint(int nX, int nY)
 	 * @Description: Set Start Point of Line via X&Y corrdinate
 	 * @param nX : int : X corrdinate of the Start Point in Line
@@ -109,15 +118,28 @@ public:
 	 */
 	GeoPoint* getEndPoint();
 
+	/**
+	 * @FuncName: getLength(void)
+	 * @Description: Get Length of Line
+	 * @return int
+	 */
+	int getLength(void) const;
+
 private:
 	/**
 	 * @Field : m_pStartPt : GeoPoint* : Start Point of Line
 	 */
 	GeoPoint* m_pStartPt;
+
 	/**
 	 * @Field : m_pEndPt : GeoPoint* : End Point of Line
 	 */
 	GeoPoint* m_pEndPt;
+
+	/**
+	 * @Field : m_nLength : int : Length of Line
+	 */
+	int m_nLength;
 };
 
 } /* namespace Geometry */
