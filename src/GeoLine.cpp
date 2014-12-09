@@ -27,7 +27,7 @@ GeoLine::GeoLine(int nX1, int nY1, int nX2, int nY2)
 	// TODO Auto-generated constructor stub
 	m_pStartPt = new GeoPoint(nX1, nY1);
 	m_pEndPt = new GeoPoint(nX2, nY2);
-	m_nLength = 0;
+	m_dLength = 0.0f;
 
 	/** */
 	ResetLength();
@@ -44,7 +44,7 @@ GeoLine::GeoLine(GeoPoint* pStartPt, GeoPoint* pEndPt)
 	// TODO Auto-generated constructor stub
 	m_pStartPt = pStartPt;
 	m_pEndPt = pEndPt;
-	m_nLength = 0;
+	m_dLength = 0;
 
 	/** */
 	ResetLength();
@@ -61,7 +61,7 @@ GeoLine::GeoLine(GeoLine& vLine)
 	// TODO Auto-generated constructor stub
 	m_pStartPt = vLine.getStartPoint();
 	m_pEndPt = vLine.getEndPoint();
-	m_nLength = 0;
+	m_dLength = 0;
 
 	/** */
 	ResetLength();
@@ -76,7 +76,7 @@ GeoLine::GeoLine()
 	// TODO Auto-generated constructor stub
 	m_pStartPt = new GeoPoint();
 	m_pEndPt = new GeoPoint();
-	m_nLength = 0;
+	m_dLength = 0;
 
 	/** */
 	ResetLength();
@@ -114,7 +114,7 @@ void GeoLine::ResetLength(void)
 	int nYDiff = m_pStartPt->getY() - m_pEndPt->getY();
 
 	/** Calculate Length */
-	m_nLength = (int)(sqrt((double)(nXDiff * nXDiff) + double(nYDiff * nYDiff)));
+	m_dLength = sqrt((double)(nXDiff * nXDiff) + double(nYDiff * nYDiff));
 }
 
 /**
@@ -192,11 +192,11 @@ GeoPoint* GeoLine::getEndPoint()
 /**
  * @FuncName: getLength(void)
  * @Description: Get Length of Line
- * @return int
+ * @return double
  */
-int GeoLine::getLength() const
+double GeoLine::getLength() const
 {
-	return m_nLength;
+	return m_dLength;
 }
 
 } /* namespace Geometry */

@@ -121,9 +121,9 @@ public:
 	/**
 	 * @FuncName: getLength(void)
 	 * @Description: Get Length of Line
-	 * @return int
+	 * @return double
 	 */
-	int getLength(void) const;
+	double getLength(void) const;
 
 private:
 	/**
@@ -137,9 +137,9 @@ private:
 	GeoPoint* m_pEndPt;
 
 	/**
-	 * @Field : m_nLength : int : Length of Line
+	 * @Field : m_nLength : double : Length of Line
 	 */
-	int m_nLength;
+	double m_dLength;
 };
 
 } /* namespace Geometry */
