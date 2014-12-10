@@ -30,7 +30,7 @@ GeoLine::GeoLine(int nX1, int nY1, int nX2, int nY2)
 	m_dLength = 0.0f;
 
 	/** */
-	ResetLength();
+	UpdateLength();
 }
 
 /**
@@ -47,7 +47,7 @@ GeoLine::GeoLine(GeoPoint* pStartPt, GeoPoint* pEndPt)
 	m_dLength = 0;
 
 	/** */
-	ResetLength();
+	UpdateLength();
 
 }
 
@@ -64,7 +64,7 @@ GeoLine::GeoLine(GeoLine& vLine)
 	m_dLength = 0;
 
 	/** */
-	ResetLength();
+	UpdateLength();
 }
 
 /**
@@ -79,7 +79,7 @@ GeoLine::GeoLine()
 	m_dLength = 0;
 
 	/** */
-	ResetLength();
+	UpdateLength();
 }
 
 /**
@@ -107,7 +107,7 @@ GeoLine::~GeoLine()
  * @FuncName: setLength(void)
  * @Description: Calculate Length of Line
  */
-void GeoLine::ResetLength(void)
+void GeoLine::UpdateLength(void)
 {
 	/** Declare Variables */
 	int nXDiff = m_pStartPt->getX() - m_pEndPt->getX();
@@ -128,7 +128,7 @@ void GeoLine::setStartPoint(int nX, int nY)
 	m_pStartPt->setX(nX);
 	m_pStartPt->setY(nY);
 
-	ResetLength();
+	UpdateLength();
 }
 
 /**
@@ -140,7 +140,7 @@ void GeoLine::setStartPoint(GeoPoint* pStartPt)
 {
 	m_pStartPt = pStartPt;
 
-	ResetLength();
+	UpdateLength();
 }
 
 /**
@@ -154,7 +154,7 @@ void GeoLine::setEndPoint(int nX, int nY)
 	m_pEndPt->setX(nX);
 	m_pEndPt->setY(nY);
 
-	ResetLength();
+	UpdateLength();
 }
 
 /**
@@ -166,7 +166,7 @@ void GeoLine::setEndPoint(GeoPoint* pEndPt)
 {
 	m_pEndPt = pEndPt;
 
-	ResetLength();
+	UpdateLength();
 }
 
 /**

@@ -69,10 +69,10 @@ public:
 
 public:
 	/**
-	 * @FuncName: setLength(void)
+	 * @FuncName: UpdateLength(void)
 	 * @Description: Calculate Length of Line
 	 */
-	void ResetLength(void);
+	void UpdateLength(void);
 
 	/**
 	 * @FuncName: setStartPoint(int nX, int nY)
